@@ -1,10 +1,9 @@
 <nav>
 
   <a href="{{.Site.BaseURL}}" class="brand">
-    {{ $logo := resources.Get "images/kjs_icon.jpg" }}
-    <img class="logo" src="{{$logo.Permalink}}" />
+    
+
     <span class="brand__title">{{.Site.Title}}</span>
-    <span class="brand__subtitle" style="text-transform: capitalize; font-weight: 200; font-size: .6em; line-height: -.2em">{{.Site.Params.subtitle}}</span>
   </a>
   <!-- responsive-->
   <input id="bmenub" type="checkbox" class="show">
