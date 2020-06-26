@@ -1,3 +1,47 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "main"
+author = "Koven J. Smith"
+summaryLength = 20
+
+
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+
+[styles]
+  [[styles.colors]]
+    primary-color = "#7E9248"
+    accent-color = "#4C97B1"
+    accent2-color = "rgb(227, 82, 24)"
+    darkgrey-color = "#4c4c4c"
+    lightgrey-color = "#bfbfbf"
+    white-color = "#fbfbfb"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+
+
+
+  # Main menu
+
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/pages/contact"
+    weight = 250
+  [[menu.main]]
+    name = "Writing"
+    url = "/post/"
+    weight = 100
+  [[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 200
+  [[menu.main]]
+    name = "Consulting"
+    url = "/consulting/"
+    weight = 50

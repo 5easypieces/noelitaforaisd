@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    {{ partialCached "head" . }}
+  </head>
+
+  <body>
+    {{- partial "header" . -}}
+
+    <main id="home">
+      {{ .Content }}
+    </main>
+  </body>
+</html>
