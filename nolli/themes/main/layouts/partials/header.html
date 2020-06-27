@@ -1,16 +1,13 @@
 <nav>
-
   <a href="{{.Site.BaseURL}}" class="brand">
-    
-
     <span class="brand__title">{{.Site.Title}}</span>
   </a>
   <!-- responsive-->
   <input id="bmenub" type="checkbox" class="show">
-  <label for="bmenub" class="burger pseudo button" style="margin-top: -12px;">&#9776;</label>
+  <label for="bmenub" class="burger pseudo button">&#9776;</label>
   <div class="menu">
-    {{- range .Site.Menus.main }}
+    {{ range .Site.Menus.main }}
       <a href="{{.URL}}" class="pseudo button icon-picture">{{ .Name }}</a>
-    {{- end -}}
+    {{ end }}
   </div>
 </nav>

@@ -1,3 +1,13 @@
 @import "picnic.scss";
 
 /* ---------colors and fonts (from config.toml)-----------*/
+nav {
+  background-color: blue;
+  color: white;
+}
+
+#home {
+  background-color: red;
+  padding: 20px;
+  margin-top: 20px;
+}
