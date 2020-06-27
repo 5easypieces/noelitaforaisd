@@ -51,5 +51,5 @@ summaryLength = 20
   	languageName = "English"
   	weight = 1
   [languages.es]
-  	languageName = "Spanish"
+  	languageName = "Español"
   	weight = 2

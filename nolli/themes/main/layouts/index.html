@@ -8,6 +8,11 @@
     {{ partialCached "header" . }}
 
     <main id="home">
+      <ul>
+{{ range $.Site.Home.AllTranslations }}
+<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+{{ end }}
+</ul>
       {{ .Content }}
     </main>
   </body>
