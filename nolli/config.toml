@@ -45,3 +45,11 @@ summaryLength = 20
     name = "Consulting"
     url = "/consulting/"
     weight = 50
+
+[languages]
+  [languages.en]
+  	languageName = "English"
+  	weight = 1
+  [languages.es]
+  	languageName = "Spanish"
+  	weight = 2
