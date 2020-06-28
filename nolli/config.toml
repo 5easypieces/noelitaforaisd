@@ -53,3 +53,19 @@ summaryLength = 20
   [languages.es]
   	languageName = "Español"
   	weight = 2
+    [[languages.es.menu.main]]
+      name = "Contact Me SP"
+      url = "/pages/contact"
+      weight = 250
+    [[languages.es.menu.main]]
+      name = "Writing SP"
+      url = "/post/"
+      weight = 100
+    [[languages.es.menu.main]]
+      name = "Projects SP"
+      url = "/project/"
+      weight = 200
+    [[languages.es.menu.main]]
+      url    = "/consulting/"
+      name   = "Consultingsp"
+      weight = 50
