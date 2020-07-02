@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Noelita for AISD"
 theme = "main"
 author = "Koven J. Smith"
 summaryLength = 20
@@ -53,6 +53,7 @@ summaryLength = 20
   [languages.es]
   	languageName = "Español"
   	weight = 2
+    title = "Noelita para AISD"
     [[languages.es.menu.main]]
       name = "Contact Me SP"
       url = "/pages/contact"
