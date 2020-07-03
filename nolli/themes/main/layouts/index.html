@@ -8,13 +8,7 @@
     {{ partialCached "header" . }}
 
     <main id="home">
-      {{ if .IsTranslated }}
-      	<div class="LangNav" style="padding-top: 30px">
-      	{{ range .Translations }}
-      		<a href="{{ .Permalink }}" class="pseudo button">{{ .Language.LanguageName }}</a>
-      	{{ end}}
-      </div>
-      {{ end }}
+      {{ partial "languagenav" . }}
       {{ .Content }}
     </main>
   </body>

@@ -34,7 +34,7 @@ summaryLength = 20
     url = "/pages/about"
     weight = 25
   [[menu.main]]
-    name = "Values & Positions"
+    name = "Issues"
     url = "/pages/values"
     weight = 50
   [[menu.main]]
@@ -53,13 +53,13 @@ summaryLength = 20
   [languages.es]
   	languageName = "Español"
   	weight = 2
-    title = "Noelita para AISD"
+    title = "Noelita Para AISD"
     [[languages.es.menu.main]]
-      name = "Acerca de"
+      name = "Biografía"
       url = "/pages/about"
       weight = 25
     [[languages.es.menu.main]]
-      name = "Valores y Posiciones"
+      name = "Asuntos"
       url = "/pages/values"
       weight = 50
     [[languages.es.menu.main]]

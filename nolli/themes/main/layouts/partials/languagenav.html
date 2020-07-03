@@ -1,0 +1,7 @@
+{{ if .IsTranslated }}
+  <div class="language-nav">
+    {{ range .AllTranslations }}
+      <a href="{{ .Permalink }}" class="pseudo button">{{ .Language.LanguageName }}</a>
+    {{ end}}
+  </div>
+{{ end }}
