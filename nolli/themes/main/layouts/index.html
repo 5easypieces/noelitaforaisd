@@ -10,17 +10,8 @@
 
     <main id="home">
       {{ partial "languagenav" . }}
-      <div id="hero" title="" class="flex one four-500 six-800">
-
-        {{ partial "get_header_image" . }}
-
-    
-
-
-        <img src="{{$.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
-
-
-
+      {{ partial "get_header_image" . }}
+      {{ partial "hero_section" . }}
       {{ .Content }}
     </main>
   </body>

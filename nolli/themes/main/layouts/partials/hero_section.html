@@ -1,0 +1,29 @@
+<div id="hero" title="" class="flex one four-500 six-800">
+
+
+  {{- with .Params.hero_image.description -}}
+    {{- $.Scratch.Set "header_image_description" . -}}
+  {{- end -}}
+  <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
+<div class="hero__overlay">
+
+  <div class="full off-fourth-500 half-500 off-third-800 two-third-800 hero__content">
+
+    <h1>{{.Title|markdownify}}</h1>
+
+
+    {{- if and (eq .Section "post") (eq .Kind "page") -}}
+      <span><em>{{ .PublishDate.Format "January 2, 2006" }} </em></span><br />
+    {{- else -}}
+      <!--do nothing-->
+    {{- end -}}
+
+  {{- if eq .Kind "home" -}}
+    <span class="abstract">{{.Content}} </span>
+  {{- else -}}
+    <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span><br>
+  {{- end -}}
+  </div>
+  </div>
+
+</div>
