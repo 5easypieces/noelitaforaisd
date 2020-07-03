@@ -30,21 +30,21 @@ summaryLength = 20
   # Main menu
 
   [[menu.main]]
-    name = "Contact Me"
-    url = "/pages/contact"
-    weight = 250
+    name = "About"
+    url = "/pages/about"
+    weight = 25
   [[menu.main]]
-    name = "Writing"
-    url = "/post/"
+    name = "Values & Positions"
+    url = "/pages/values"
+    weight = 50
+  [[menu.main]]
+    name = "Events"
+    url = "/events"
     weight = 100
   [[menu.main]]
-    name = "Projects"
-    url = "/project/"
-    weight = 200
-  [[menu.main]]
-    name = "Consulting"
-    url = "/consulting/"
-    weight = 50
+    name = "Donate"
+    url = "/pages/donate"
+    weight = 150
 
 [languages]
   [languages.en]
@@ -55,18 +55,18 @@ summaryLength = 20
   	weight = 2
     title = "Noelita para AISD"
     [[languages.es.menu.main]]
-      name = "Contact Me SP"
-      url = "/pages/contact"
-      weight = 250
+      name = "Acerca de"
+      url = "/pages/about"
+      weight = 25
     [[languages.es.menu.main]]
-      name = "Writing SP"
-      url = "/post/"
+      name = "Valores y Posiciones"
+      url = "/pages/values"
+      weight = 50
+    [[languages.es.menu.main]]
+      name = "Eventos"
+      url = "/events"
       weight = 100
     [[languages.es.menu.main]]
-      name = "Projects SP"
-      url = "/project/"
-      weight = 200
-    [[languages.es.menu.main]]
-      url    = "/consulting/"
-      name   = "Consultingsp"
-      weight = 50
+      url    = "/pages/donate"
+      name   = "Donar"
+      weight = 150

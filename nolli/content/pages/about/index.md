@@ -2,6 +2,8 @@
 title: Meet Kevin Foster
 abstract: Some introductory content about Kevin Foster
 draft: false
+aliases:
+  - "/about"
 resources:
 - src: "pols_feature30.jpg"
   name: hero

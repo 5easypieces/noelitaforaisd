@@ -10,10 +10,12 @@
       {{ if .IsTranslated }}
       	<div class="LangNav" style="padding-top: 30px">
       	{{ range .Translations }}
-      		<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+      		<a href="{{ .Permalink }}" class="pseudo button">{{ .Language.LanguageName }}</a>
       	{{ end}}
       </div>
       {{ end }}
+
+      
 
       {{ block "main" . }}{{ end }}
 

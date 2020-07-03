@@ -2,6 +2,8 @@
 title: Conoce a Kevin Foster
 abstract: Algunos contenidos introductorios sobre Kevin Foster
 draft: false
+aliases:
+ - "/about"
 resources:
 - src: "pols_feature30.jpg"
   name: hero
