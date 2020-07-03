@@ -11,11 +11,12 @@
     <main id="home">
 
       {{ partial "get_header_image" . }}
-      <a href="#maincontent">
-        {{ partial "hero_section" . }}
-      </a>
-      <div id="maincontent">
 
+        {{ partial "hero_section" . }}
+  
+      <div id="maincontent">
+        {{ i18n "hello" }}
+        {{ i18n "how_are_you" }}
         {{ .Content }}
       </div>
     </main>

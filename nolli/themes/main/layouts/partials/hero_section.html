@@ -4,5 +4,8 @@
     <div class="full off-fourth-800 three-fourth-800 hero__content">
       <h1>{{.Title|markdownify}}</h1>
       <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span>
+      {{- if eq .Kind "home" -}}
+      <br/><a class="button" href="https://example.com">{{i18n "donate_now" }}</a>
+      {{ end }}
     </div>
 </div>

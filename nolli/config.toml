@@ -42,8 +42,8 @@ summaryLength = 20
     url = "/events"
     weight = 100
   [[menu.main]]
-    name = "Donate"
-    url = "/pages/donate"
+    name = "Get Involved"
+    url = "/pages/getinvolved"
     weight = 150
 
 [languages]
@@ -67,6 +67,6 @@ summaryLength = 20
       url = "/events"
       weight = 100
     [[languages.es.menu.main]]
-      url    = "/pages/donate"
-      name   = "Donar"
+      url    = "/pages/getinvolved"
+      name   = "Participar"
       weight = 150
