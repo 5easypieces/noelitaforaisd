@@ -5,9 +5,9 @@
     {{- $.Scratch.Set "header_image_description" . -}}
   {{- end -}}
   <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
-<div class="hero__overlay">
+<div class="">
 
-  <div class="full off-fourth-500 half-500 off-third-800 two-third-800 hero__content">
+  <div class="full off-fourth-800 hero__content">
 
     <h1>{{.Title|markdownify}}</h1>
 
@@ -18,11 +18,9 @@
       <!--do nothing-->
     {{- end -}}
 
-  {{- if eq .Kind "home" -}}
-    <span class="abstract">{{.Content}} </span>
-  {{- else -}}
+
     <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span><br>
-  {{- end -}}
+
   </div>
   </div>
 

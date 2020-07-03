@@ -1,6 +1,6 @@
 ---
-title: A few words about Noelita
-abstract: That is all.
+title: Noelita Lugo for AISD At-Large
+abstract: Here's where a little tag line about Noelita will go once we know what it is. 
 draft: false
 resources:
 - src: "IMG_2185.JPG"
