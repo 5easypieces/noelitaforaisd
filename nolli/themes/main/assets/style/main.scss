@@ -9,7 +9,18 @@
 }
 
 nav {
-  z-index: 100;
+
+  background: blue;
+
+  
+padding-top: 1.2em;
+height: 4em;
+
+  .brand__subtitle {
+  position: fixed;
+  left: 18px;
+  top: 32px;
+  }
 }
 
 
@@ -23,7 +34,8 @@ nav {
 #hero {
   height: 100vh;
 
-  margin-bottom: 8px;
+
+
 
   img {
     width: 100%;

@@ -1,7 +1,6 @@
 ---
-title: Unas Palabras Sobre Noelita
-abstract: That is all.
-draft: false
+title: Noelita Lugo para AISD At-Large
+abstract: Aquí es donde irá una pequeña frase sobre Noelita una vez que sepamos de qué se trata.
 resources:
 - src: "IMG_2185.JPG"
   name: hero

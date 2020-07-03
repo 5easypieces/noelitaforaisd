@@ -5,14 +5,19 @@
   </head>
 
   <body>
-    {{ partialCached "header" . }}
+    {{ partial "header" . }}
 
 
     <main id="home">
-      {{ partial "languagenav" . }}
+
       {{ partial "get_header_image" . }}
-      {{ partial "hero_section" . }}
-      {{ .Content }}
+      <a href="#maincontent">
+        {{ partial "hero_section" . }}
+      </a>
+      <div id="maincontent">
+
+        {{ .Content }}
+      </div>
     </main>
   </body>
 </html>

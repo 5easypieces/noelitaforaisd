@@ -1,6 +1,7 @@
 <nav>
   <a href="{{ .Site.Home.Permalink }}" class="brand">
     <span class="brand__title">{{.Site.Title}}</span>
+    <span class="brand__subtitle">{{partial "languagenav" . }}</span>
   </a>
   <!-- responsive-->
   <input id="bmenub" type="checkbox" class="show">
