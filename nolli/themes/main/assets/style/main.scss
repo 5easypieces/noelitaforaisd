@@ -1,5 +1,15 @@
 @import "picnic.scss";
 
+
+/* ---------colors-----------*/
+
+$primary-color: {{ .Site.Data.color.primary_color | default "#7E9248" }};
+$accent-color: {{ .Site.Data.color.primary_color | default "#4C97B1" }};
+$accent2-color: {{ .Site.Data.color.primary_color | default "rgb(227, 82, 24)" }};
+$darkgrey-color: {{ .Site.Data.color.primary_color | default "#4c4c4c"}};
+$lightgrey-color: {{ .Site.Data.color.primary_color | default "#bfbfbf"}};
+$white-color: {{ .Site.Data.color.primary_color | default "#fbfbfb"}};
+
 /* ---------mixins-----------*/
 
 @mixin material_shadow() {
@@ -8,28 +18,39 @@
   border: none;
 }
 
+/* ---------main elements-----------*/
+
 nav {
-
-  background: blue;
-
-
-padding-top: 1.2em;
-height: 4em;
-
-  .brand__subtitle {
-  position: fixed;
-  left: 18px;
-  top: 32px;
+  position: absolute;
+  /*background: $primary-color;*/
+  color: $white-color;
+  padding-top: 1.2em;
+  height: 7em;
+  .menu {
+    top: 28%;
   }
 
+  .brand__title {
+    font-size: 2.8em;
+    position: absolute;
+    top: -49px;
+  }
 
+  .languagenav {
+    font-size: 0.65em;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+  }
+  .burger {
+    top: 40px;
+  }
 }
 
-.languagenav {
-  font-size: 0.8em;
+button {
+  background-color: $accent2-color;
+  color: $white-color;
 }
-
-
 
 
 /* ---------colors and fonts (from config.toml)-----------*/
