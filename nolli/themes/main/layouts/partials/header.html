@@ -1,14 +1,16 @@
 <nav>
   <a href="{{ .Site.Home.Permalink }}" class="brand">
     <span class="brand__title">{{.Site.Title}}</span>
-    <span class="brand__subtitle">{{partial "languagenav" . }}</span>
+    <span class="brand__subtitle"></span>
   </a>
   <!-- responsive-->
   <input id="bmenub" type="checkbox" class="show">
   <label for="bmenub" class="burger pseudo button">&#9776;</label>
   <div class="menu">
+  
     {{ range .Site.Menus.main }}
       <a href="{{.URL | relLangURL }}" class="pseudo button icon-picture">{{ .Name }}</a>
     {{ end }}
   </div>
+
 </nav>
