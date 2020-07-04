@@ -1,42 +1,16 @@
 {{ define "main" }}
-<div class="flex six">
-  <div class="full off-sixth-600 two-third-600 page_content">
+  <div class="flex six">
+    <div class="full off-sixth-600 two-third-600 page_content">
+      <h1>{{.Title}}</h1>
+      <p>{{.Content | safeHTML }}</p>
+      <div class="flex six">
+        {{ range sort (.Data.Pages.ByParam "event_start_unix") ".Params.event_start_unix" "asc" }} <!--sort events in ascending order by start date-->
 
-    <h1>{{.Title}}</h1>
-    <p>{{.Content | safeHTML }}</p>
-    <div class="flex six">
-      {{ range .Data.Pages }}
-        {{$starttime := .Params.event_start_unix|time}}
-        {{$endtime := $endtime|time}}
+              {{ partial "eventsummary" . }}
+            
+          {{ end }}
 
-
-    {{ range sort (.Data.Pages.ByParam "event_start_unix") ".Params.event_start_unix" "asc" }} <!--sort events in ascending order by start date-->
-    {{ $endtime := partial "func/enddate" . }} <!--get enddate of current event -->
-    {{ $endtime := $endtime|time}}
-    {{ $starttime := .Params.event_start_unix|time}}
-    {{if $endtime.Before now }} <!--if event has already concluded -->
-     <!--do nothing-->
-    {{else if and ($endtime.After now) ($starttime.Before now)}}
-      <p class="alert">Currently underway:</p>
-      {{ partial "eventsummary" . }}
-    {{ else }}
-
-    {{ end }}
-
-
-
-    {{ end }}
-
-
+      </div>
     </div>
   </div>
-</div>
-
-
-
-
-
-
-
-
 {{ end }}
