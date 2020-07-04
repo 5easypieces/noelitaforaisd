@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ .Language }}">
   <head>
-    {{- partial "head" . -}}
+    {{ partial "head" . }}
   </head>
+
   <body>
-    {{- partial "header" . -}}
+    {{ partial "header" . }}
+
 
     <main id="home">
-      {{ partial "languagenav" . }}
+
+      {{ partial "get_header_image" . }}
+
+        {{ partial "hero_section" . }}
+
 
 
 

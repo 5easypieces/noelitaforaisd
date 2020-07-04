@@ -1,6 +1,6 @@
 ---
-title: Meet Kevin Foster
-abstract: Some introductory content about Kevin Foster
+title: About Noelita
+abstract: Fighting for families
 draft: false
 aliases:
   - "/about"
