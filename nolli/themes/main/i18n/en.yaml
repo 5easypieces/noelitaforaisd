@@ -4,3 +4,5 @@
   translation: "How are you doing?"
 - id: donate_now
   translation: "Donate Now"
+- id: more_details
+  translation: "More Details"
