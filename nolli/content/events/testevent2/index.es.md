@@ -1,12 +1,12 @@
 +++
-event_start = "2020-09-24T16:00:00-03:00"
+event_start = "2020-08-24T16:00:00-03:00"
 event_end = ""
-event_start_unix = 1600995600
+event_start_unix = 1598317200
 locality = ""
 time_zone= "SGT"
 status = "scheduled"
 tagline = ""
-title = "The third test event"
+title = "El segundo evento de prueba"
 event_is_virtual = true
 draft = false
 no_alcohol = true
