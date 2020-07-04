@@ -3,22 +3,12 @@
   <head>
     {{ partial "head" . }}
   </head>
-
   <body>
     {{ partial "header" . }}
-
-
     <main id="home">
-
       {{ partial "get_header_image" . }}
-
-        {{ partial "hero_section" . }}
-
-
-
-
+      {{ partial "hero_section" . }}
       {{ block "main" . }}{{ end }}
-
     </main>
   </body>
 </html>
