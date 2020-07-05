@@ -56,7 +56,7 @@ button {
 /* ---------primary divs-----------*/
 
 #hero {
-  height: 80vh;
+  height: 100vh;
   background-image: linear-gradient(to bottom,rgba(0,0,0, 0.75) ,rgba(0, 0, 0, 0.05)15%);
   img {
     width: 100%;
@@ -67,11 +67,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #maincontent, #footercontent, #contentnav, #hero {
-    font-size: 0.85em;
-  }
-}
+
 
 #maincontent {
   padding: 20px;
@@ -103,4 +99,26 @@ button {
   padding: 20px;
   border-radius: 2px;
   color: white;
+}
+
+/* ---------responsiv-----------*/
+
+@media only screen and (max-width: 600px) {
+  #maincontent, #footercontent, #contentnav, #hero,  {
+    font-size: 0.85em;
+  }
+  #hero {
+    height: 50vh;
+  }
+  .hero__content {
+    position: absolute;
+    top: 25vh;
+    font-size: 0.85em;
+  }
+  span.brand__title {
+    font-size: 1.5em;
+  }
+  nav .burger {
+    top: 21px;
+  }
 }
