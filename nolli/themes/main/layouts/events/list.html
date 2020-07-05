@@ -1,13 +1,13 @@
 {{ define "main" }}
-  <div class="flex six">
-    <div class="full off-sixth-600 two-third-600 page_content">
+  <div id="maincontent" class="flex six">
+    <div class="full off-sixth-800 two-third-800">
       <h1>{{.Title}}</h1>
       <p>{{.Content | safeHTML }}</p>
       <div class="flex six">
         {{ range sort (.Data.Pages.ByParam "event_start_unix") ".Params.event_start_unix" "asc" }} <!--sort events in ascending order by start date-->
 
               {{ partial "eventsummary" . }}
-            
+
           {{ end }}
 
       </div>
