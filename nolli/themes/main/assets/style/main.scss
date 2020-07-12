@@ -1,5 +1,5 @@
 @import "picnic.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,500;1,300&family=Patua+One&display=swap');
 
 /* ---------colors-----------*/
 
@@ -9,6 +9,14 @@ $accent2-color: {{ .Site.Data.color.primary_color | default "rgb(227, 82, 24)" }
 $darkgrey-color: {{ .Site.Data.color.primary_color | default "#4c4c4c"}};
 $lightgrey-color: {{ .Site.Data.color.primary_color | default "#bfbfbf"}};
 $white-color: {{ .Site.Data.color.primary_color | default "#fbfbfb"}};
+
+/* ---------fonts-----------*/
+
+$header-text: 'Patua One', sans-serif;
+$subhead-text: 'Montserrat', sans-serif;
+$body-text: 'Merriweather', serif;
+
+
 
 /* ---------mixins-----------*/
 
@@ -20,6 +28,9 @@ $white-color: {{ .Site.Data.color.primary_color | default "#fbfbfb"}};
 
 /* ---------main elements-----------*/
 
+h1, h2, h3, h4, h5 {
+  font-family: $header-text;
+}
 nav {
   position: absolute;
   /*background: $primary-color;*/
@@ -29,7 +40,7 @@ nav {
   .menu {
     top: 28%;
   }
-
+  font-family: $subhead-text;
   .brand__title {
     font-size: 2.8em;
     position: absolute;
@@ -47,9 +58,10 @@ nav {
   }
 }
 
-button {
+button, a.button {
   background-color: $accent2-color;
   color: $white-color;
+  font-family: $subhead-text;
 }
 
 
@@ -71,6 +83,7 @@ button {
 
 #maincontent {
   padding: 20px;
+  font-family: $body-text;
 }
 
 
@@ -99,9 +112,13 @@ button {
   padding: 20px;
   border-radius: 2px;
   color: white;
+  .abstract {
+      font-family: $subhead-text;
+      font-style: italic;
+  }
 }
 
-/* ---------responsiv-----------*/
+/* ---------responsive-----------*/
 
 @media only screen and (max-width: 600px) {
   #maincontent, #footercontent, #contentnav, #hero,  {
