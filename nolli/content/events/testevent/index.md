@@ -1,6 +1,6 @@
 +++
-event_start = "2020-07-24T16:00:00-03:00"
-event_end = ""
+event_start = "2025-07-21T19:00:00-05:00"
+event_end = "2025-07-21T23:00:00-05:00"
 event_start_unix = 1595638800
 locality = ""
 time_zone= "SGT"
@@ -11,6 +11,7 @@ event_is_virtual = true
 draft = false
 no_alcohol = true
 accessible = false
+event_url = "https://example.org"
 
 
 

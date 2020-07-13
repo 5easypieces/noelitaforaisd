@@ -26,21 +26,23 @@
 
 
 <!--test content {{ .CurrentSection }} -->
-{{ if and (eq .Section "events") (eq .Kind "page") }}
-
+{{ if and (eq .Section "events") (eq .Kind "page") }} <!--only display RDF when page is a single event listing-->
+<!--this is an online event-->
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "name": "{{.Kind}}",
-      "startDate": "2025-07-21T19:00:00-05:00",
-      "endDate": "2025-07-21T23:00-05:00",
+      "name": "{{.Title|safeJS}}",
+      "startDate": "{{.Params.event_start}}",
+      "endDate": "{{.Params.event_end}}",
       "eventStatus": "https://schema.org/EventScheduled",
+      {{if .Params.event_is_virtual}}
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "location": {
-        "@type": "VirtualLocation",
-        "url": "https://operaonline.stream5.com/"
-        },
+      "@type": "VirtualLocation",
+      "url": "{{.Params.event_url|safeJS}}"
+      },
+      {{ end }}
       "image": [
         "https://example.com/photos/1x1/photo.jpg",
         "https://example.com/photos/4x3/photo.jpg",
