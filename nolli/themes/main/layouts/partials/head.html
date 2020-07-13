@@ -43,29 +43,39 @@
       "url": "{{.Params.event_url|safeJS}}"
       },
       {{ end }}
+      {{- if .Resources.GetMatch "hero" -}}
+        {{- $image := .Resources.GetMatch "hero" -}}
+        {{- $image := $image.Fill "1920x1000 q50" -}}
+
+        {{- $.Scratch.Set "header_image_url" $image.Permalink -}}
+      {{ end }}
+
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "{{$.Scratch.Get "header_image_url" |safeJS }}"
        ],
-      "description": "The Adventures of Kira and Morrison is coming to Snickertown in a can’t miss performance.",
-      "offers": {
+      "description": "{{- .Params.abstract|safeJS -}}",
+
+      "offers": [
+      {{ range .Params.tickets }}
+      {
         "@type": "Offer",
-        "url": "https://www.example.com/event_offer/12345_201803180430",
-        "price": "30",
-        "priceCurrency": "USD",
+        "url": "{{.url}}",
+        "price": "{{.price}}",
+        "priceCurrency": "{{.currency}}",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2024-05-21T12:00"
+        "validFrom": "{{$.PublishDate}}"
       },
-      "performer": {
-        "@type": "PerformingGroup",
-        "name": "Kira and Morrison"
-      },
-      "organizer": {
+      {{end}}
+    ],
+      "organizer": [
+      {{ range .Params.organizer }}
+      {
         "@type": "Organization",
-        "name": "Kira and Morrison Music",
-        "url": "https://kiraandmorrisonmusic.com"
-      }
+        "name": "{{.name}}",
+        "url": "{{.url}}"
+      },
+      {{ end }}
+    ],
     }
     </script>
   {{ end }}

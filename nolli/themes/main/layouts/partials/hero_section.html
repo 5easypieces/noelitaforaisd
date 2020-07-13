@@ -1,11 +1,13 @@
 
 <div id="hero" title="" class="flex one four-500">
   <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
+  <div class="hero__overlay">
     <div class="full off-fourth-800 three-fourth-800 hero__content">
       <h1>{{.Title|markdownify}}</h1>
       <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span>
       {{- if eq .Kind "home" -}}
       <br/><a class="button" href="https://example.com">{{i18n "donate_now" }}</a>
       {{ end }}
+    </div>
     </div>
 </div>
