@@ -12,10 +12,11 @@
           <a class="button" href="{{.Permalink}}">{{i18n "more_details"}}</a>
         </div>
         <div class="event_url half">
-            {{ range first 1 .Params.venues }}
-              {{with.url}}<a href="{{.}}" target="_blank" class="pseudo button">Event URL</a>
+            {{ if eq .Params.event_is_virtual "true" }}
 
-              {{ end }}
+              {{with .Params.event_url}}<a href="{{.}}" target="_blank" class="pseudo button">Event URL</a>{{end}}
+
+
             {{ end }}
         </div>
       </div>

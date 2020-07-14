@@ -27,24 +27,8 @@ event_url = "https://example.org"
 [[organizer]]
   name = "Save Austin Schools Coalition"
   url = "https://saveustinschools.com"
-
-[[hosts]]
-  host_email = ""
-  host_name = ""
-  host_twitter = ""
-
-[[hosts]]
-  host_email = ""
-  host_name = ""
-  host_twitter = ""
-
-
-[[venues]]
-  address_locality = "Everywhere"
-  address_region = ""
-  is_virtual = true
-  name = ""
-  postal_code = ""
-  street_address = ""
-  url = "https://nus-sg.zoom.us/meeting/register/tJYlf-GsrjsvGdQ9DkLaz6OKlQTsAyMtvzkg "
 +++
+
+I'm baby air plant drinking vinegar palo santo master cleanse cronut 90's la croix readymade shaman seitan. Blog fam narwhal keytar microdosing cred. Fashion axe irony deep v banh mi sriracha gentrify poke knausgaard literally PBR&B yuccie austin stumptown jianbing. Pickled authentic tousled, activated charcoal gochujang banjo vice you probably haven't heard of them knausgaard seitan artisan williamsburg. Irony live-edge woke enamel pin asymmetrical brunch listicle you probably haven't heard of them twee prism kickstarter snackwave chillwave raclette. Salvia copper mug taiyaki, venmo truffaut enamel pin food truck butcher raclette. Hell of brooklyn try-hard post-ironic fingerstache, vice pitchfork.
+
+Quinoa flannel blog crucifix raclette fanny pack. Listicle migas put a bird on it echo park. Ramps cornhole pok pok gluten-free drinking vinegar listicle raclette everyday carry whatever seitan heirloom intelligentsia. Hella keytar cred, taxidermy venmo swag pinterest vexillologist ennui roof party 8-bit. Distillery tumblr tousled ethical synth wayfarers.
