@@ -1,12 +1,13 @@
 {{ define "main" }}
 <div class="flex six">
   <div class="full off-sixth-600 two-third-600" style="padding-top: 10%">
-    <article class="card event-wrapper" itemscope itemtype="http://schema.org/SocialEvent">
+    <article class="card">
 
       <header>
         <h1 class="event-title" itemprop="name">{{.Title}}</h1>
       </header>
       <footer>
+
 
 
 
@@ -17,10 +18,10 @@
 
 
         {{if $endtime.Before now }}
-          <div class="accent2_color eventStatus" style="font-style: italic">This event has concluded.</div>
+          <div class="accent2_color" style="font-style: italic">This event has concluded.</div>
         {{ end }}
         {{ partial "eventtombstone" .}}
-        <div class="venues flex two" style="padding-top: 15px">
+        <div class="flex two" style="padding-top: 15px">
           {{ range .Params.venues }}
             <div class="full half-1000">
               {{ with .url }}<a href="{{.|safeHTML}}" target="_blank" class="button">{{end}}Event URL{{with .url}}</a>{{end}}<br/>
@@ -38,7 +39,7 @@
 
 
 
-        <p class="p-description">{{.Content}}</p>
+        <p class="">{{.Content}}</p>
 
 
 

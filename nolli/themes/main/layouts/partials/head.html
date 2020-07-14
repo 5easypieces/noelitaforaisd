@@ -36,46 +36,44 @@
       "startDate": "{{.Params.event_start}}",
       "endDate": "{{.Params.event_end}}",
       "eventStatus": "https://schema.org/EventScheduled",
-      {{if .Params.event_is_virtual}}
+      {{- if .Params.event_is_virtual -}}
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "location": {
       "@type": "VirtualLocation",
-      "url": "{{.Params.event_url|safeJS}}"
+      "url": "{{.Params.event_url|html}}"
       },
-      {{ end }}
-      {{- if .Resources.GetMatch "hero" -}}
-        {{- $image := .Resources.GetMatch "hero" -}}
-        {{- $image := $image.Fill "1920x1000 q50" -}}
-
-        {{- $.Scratch.Set "header_image_url" $image.Permalink -}}
-      {{ end }}
-
+      {{- end -}}
       "image": [
-        "{{$.Scratch.Get "header_image_url" |safeJS }}"
+      {{ with .Resources.GetMatch "hero"}}
+      {{- $image := . -}}
+      {{- $image := $image.Fill "1920x1000 q50" -}}
+        "{{- $image.Permalink -}}"
+      {{ end }}
        ],
       "description": "{{- .Params.abstract|safeJS -}}",
-
-      "offers": [
-      {{ range .Params.tickets }}
+      {{ $var :=  len .Params.tickets }}
+      "__comment":{{ $.Scratch.Set "count" 0 }},
+      "offers": [ {{ range .Params.tickets }}
+      {"__comment":{{$.Scratch.Set "count" (add ($.Scratch.Get "count") 1) }}},
       {
         "@type": "Offer",
         "url": "{{.url}}",
         "price": "{{.price}}",
         "priceCurrency": "{{.currency}}",
         "availability": "https://schema.org/InStock",
-        "validFrom": "{{$.PublishDate}}"
-      },
+        "validFrom": "{{$.Date}}"
+      }{{if gt $var ($.Scratch.Get "count") }},{{end}}
       {{end}}
     ],
-      "organizer": [
-      {{ range .Params.organizer }}
-      {
+      "organizer": {
+{{ range .Params.organizer }}
         "@type": "Organization",
         "name": "{{.name}}",
         "url": "{{.url}}"
-      },
-      {{ end }}
-    ],
+        {{ end }}
+      }
+
+
     }
     </script>
   {{ end }}
