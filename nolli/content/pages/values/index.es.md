@@ -1,27 +1,48 @@
 ---
 title: Valores
-abstract: Some introductory content about Kevin Foster
+abstract: 
 aliases:
   - "/values"
 draft: false
 resources:
-- src: "pols_feature30.jpg"
+- src: "noelita_community.jpg"
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'An image of Noelita Lugo speaking at a rally.'
+    source: 'Personal photo'
+    description: 'An image of Noelita Lugo with a mask on, handing a document to another woman, also wearing a mask.'
 ---
+## Estudiantes
+_Todos los estudiantes tienen derecho y deben tener acceso a una rica experiencia educativa para que puedan actualizar su máximo potencial académico y en la vida._
 
-> “En 2019, varios cientos de familias de AISD participaron en conversaciones sobre lo que AISD debería representar. Los valores que se les ocurrieron a los participantes durante estas conversaciones de "Reframe the Game" son tan importantes como siempre, e informan poderosamente mi pensamiento sobre lo que me gustaría defender como Fideicomisario de AISD ". - Kevin Foster
+Debemos asegurarnos:
+* Altas expectativas, altos estándares académicos y programación curricular de alto nivel y estrategias de instrucción culturalmente sensibles que ayudan a TODOS los estudiantes a prosperar.
+* Los estudiantes con discapacidades y excepcionalidades, incluida la dislexia, reciben educación especial que es inclusiva y basada en evidencia.
+* Las pruebas son una pequeña parte de la evaluación educativa y no deben usarse como la métrica principal para rastrear el progreso de los estudiantes: las calificaciones de las pruebas no deben usarse como armas contra los estudiantes, sus familias o maestros.
+* Las voces de los estudiantes deben ser solicitadas, respetadas y escuchadas.
+* Los recursos se priorizan para los estudiantes con menos ventajas.
 
-## Equidad: elevar a los menos privilegiados
-La planificación debe ser cuidadosa y primero atender las necesidades de los estudiantes menos privilegiados, más vulnerables, históricamente marginados y con necesidades especiales y luego trabajar para asegurar que las necesidades de los históricamente privilegiados también sean atendidas. Los sacrificios presupuestarios deben ser compartidos, y nunca llevados a cabo de manera desproporcionada por los más vulnerables o históricamente marginados. Los beneficios para las comunidades marginadas respaldan su ascendencia académica y socioeconómica y su bienestar general en las escuelas; Los beneficios para las comunidades ya privilegiadas mantienen su estabilidad y bienestar general.
+## Padres / Cuidadores / Comunidad
+_Los padres y cuidadores deben estar auténticamente comprometidos, escuchados y respetados como los principales expertos en las necesidades de nuestros niños y escuelas._
 
-## Excelencia: en planificación, enseñanza, plan de estudios, programas y liderazgo
-Las escuelas deben incluir programas actualizados, bien financiados, bien desarrollados, respaldados por la investigación y con un currículo culturalmente relevante. Las escuelas deben contar con maestros experimentados y con dominio cultural que sean expertos en su área de contenido, que se adapten a su experiencia y pasiones, y que conozcan y amen a su comunidad escolar. La planificación debe reflejar la investigación académica y las voces de la comunidad, debe estar bien concebida e incluir los recursos humanos, materiales y de liderazgo necesarios para el éxito.
+* La comunidad merece una comunicación transparente y proactiva del distrito. La práctica actual de la Junta de negarse a hablar con los medios de comunicación es inapropiada, antidemocrática y debe terminar. Los funcionarios electos son responsables ante el público y la gente depende de la prensa para mantenerse informada. Además, los fideicomisarios del distrito y de la junta escolar deben brindar una participación comunitaria auténtica y llegar de manera proactiva a las comunidades, reuniéndose con los padres y cuidadores donde se encuentran y de una manera que sea accesible (lingüística, física y de otro tipo).
+* Las diferencias culturales y las habilidades lingüísticas deben tratarse como un bien de la comunidad sobre el cual construir, y no como una carga o un déficit.
+* Las oportunidades educativas deben ser accesibles a todas las partes de la comunidad para que los padres / cuidadores no estén sobrecargados y todos los niños tengan acceso a las oportunidades.
 
-## Equilibrio: poder, diversidad, recursos y oportunidades
-Todas las escuelas deben incluir una diversidad de estudiantes, maestros y liderazgo dentro de sus paredes. Los recursos y las oportunidades deben ser equilibrados para que cada estudiante tenga la gama más amplia de opciones académicas y programáticas disponibles para ellos. La diversidad incluye el origen étnico, el estado económico, las habilidades especiales y el idioma del hogar, y requiere que el poder se comparta entre los grupos.
+## Maestros
+_Los líderes y educadores del campus deben ser respetados y consultados como los profesionales que son al determinar enfoques efectivos para la enseñanza y el aprendizaje y la rendición de cuentas._
 
-## Crecimiento: expandiéndose con la ciudad
-A medida que Austin continúa creciendo, nuestros cuerpos de estudiantes y escuelas también deberían crecer. Los programas, las escuelas, los límites escolares y los patrones de alimentación deben funcionar de manera que alienten a los estudiantes y las familias a inscribirse y participar en nuestras escuelas con confianza.
+__Los maestros NO son prescindibles. AISD debe:__
+* Valorar la salud y seguridad de los docentes.
+* Reclutar y retener maestros y directores diversos y talentosos que comprendan y amen las comunidades en las que enseñan.
+* Brindar a los maestros y líderes del campus desarrollo profesional y equiparlos con los recursos, el plan de estudios y el apoyo necesarios para brindar una instrucción significativa y efectiva que satisfaga las necesidades de los estudiantes y ofrezca excelentes oportunidades académicas.
+    * Esto incluye oportunidades de aprendizaje donde los educadores pueden entender cómo nuestros marcos de referencia, antecedentes, prejuicios y creencias influyen en cómo hemos contribuido históricamente a las disparidades y desigualdades en el sistema escolar.
+* Asegurarse de que los programas de compensación y salario alienten a los educadores experimentados a buscar un avance profesional en el aula.
+* Mantener un defensor del pueblo que sea parte permanente del distrito y proporcionar a los líderes administrativos y al personal las habilidades y el apoyo necesarios para cultivar un ambiente de trabajo saludable que prospere en la colaboración, la innovación y el respeto.
+
+## Orgullo
+_La comunidad de Austin apoya a nuestras escuelas públicas y quiere sentirse orgullosa del trabajo de AISD. Austin ISD puede ser un distrito escolar del que todos podamos sentirnos orgullosos, uno que refleje una alineación de nuestros valores y nuestras prácticas educativas._
+
+* Debemos abordar la segregación racial y económica persistente que vemos en nuestros campus y equipos verticales, y trabajar con líderes comunitarios, maestros, padres y estudiantes para valorar, invertir, crear y mantener un AISD integrado.
+* Debemos declarar inequívocamente que las vidas de las personas de raza negra y marrón son importantes y luego seguir adelante con la inversión en los estudiantes y maestros de raza negra y marrón, y trabajar mano a mano con los líderes, maestros, padres y estudiantes de la comunidad de raza negra y marrón.
+* AISD debe asignar fondos para, procurar y seguir adelante con una evaluación / auditoría de equidad externa e independiente de académicos, instalaciones y finanzas.
+* El distrito debe desarrollar un plan de inscripción estratégico que sea innovador e inclusivo y aliente a las familias y estudiantes a optar por el AISD con confianza.
