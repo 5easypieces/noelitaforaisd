@@ -4,6 +4,7 @@ title = "Noelita for AISD"
 theme = "main"
 author = "Koven J. Smith"
 summaryLength = 20
+logo = "/noelita_logo.png"
 
 
 

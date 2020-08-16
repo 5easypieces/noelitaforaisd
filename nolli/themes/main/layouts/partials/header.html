@@ -1,7 +1,9 @@
 <nav>
   <a href="{{ .Site.Home.Permalink }}" class="brand">
-    <span class="brand__title">{{.Site.Title}}</span>
-    <span class="brand__subtitle"></span>
+    {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
+    <img class="logo" src="{{$logo.Permalink}}" />
+
+
   </a>
   <!-- responsive-->
   <input id="bmenub" type="checkbox" class="show">
