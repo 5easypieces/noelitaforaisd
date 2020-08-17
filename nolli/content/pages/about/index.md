@@ -1,17 +1,17 @@
 ---
-title: About Noelita
-abstract: ""
+title: Meet Noelita.
+abstract: "Because every student deserves the chance to succeed."
 draft: false
 aliases:
   - "/about"
 resources:
-- src: "pols_feature30.jpg"
+- src: "noelita_about.jpg"
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'An image of Noelita Lugo speaking at a rally.'
+    source: ''
+    description: 'Black-and-white mage of Noelita Lugo. She is facing the viewer while leaning against a wall.'
 ---
-{{< figure src="pols_feature30.jpg" caption="this is the caption" class="fig-left">}}
+
 Coming from a working-class immigrant family that is both indigenous and Latino (Otomi and Mexican), Noelita was encouraged to excel in school and was the first in her family to graduate from college. With a master’s degree in social work from the University of Texas, Noelita has devoted her 20-year career working in state public policy focused on family-centered child support, workforce development partnership programs and young parent and fatherhood programs.
 
 

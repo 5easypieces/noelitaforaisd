@@ -27,6 +27,9 @@ $body-text: 'Merriweather', serif;
 }
 
 /* ---------main elements-----------*/
+body {
+  background-color: $white-color;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: $subhead-text;
@@ -73,18 +76,37 @@ button, a.button {
 /* ---------primary divs-----------*/
 
 #hero {
-  height: 100vh;
-  background-image: linear-gradient(to bottom,rgba(0,0,0, 0.75) ,rgba(0, 0, 0, 0.05)15%);
+  height: auto;
+  margin-top: 153px;
+  padding: 20px;
   img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-    padding: 0;
+
+  }
+}
+.hero__title {
+  padding-right: 15px;
+  h1 {
+    text-align: end;
+    font-size: 3em;
+    letter-spacing: -2.5px;
+    line-height: 0.9em;
+    position: relative;
+    top: 20%;
+  }
+  .hero__abstract {
+    font-family: $body-text;
+    font-style: italic;
+    text-align: end;
+    position: relative;
+    top: 64px;
   }
 }
 
-
+.hero__image {
+  img {
+    @include material_shadow();
+  }
+}
 
 #maincontent {
   padding: 20px;
@@ -92,41 +114,10 @@ button, a.button {
   font-size: 0.9em;
   line-height: 1.6em;
   color: $darkgrey-color;
-  background-color: $white-color;
-  margin-top: 153px;
+
 }
 
 
-
-.hero__overlay {
-
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 15;
-  background-image: linear-gradient(to bottom,rgba(0,0,0, 0.65) ,rgba(0, 0, 0, 0.05)15%);
-}
-
-
-
-
-.hero__content {
-  position: absolute;
-  top: 55vh;
-  left: 0;
-  z-index: 10;
-  background-image: linear-gradient(to right,rgba(0,0,0, 0.65) ,rgba(0, 0, 0, 0.65));
-  @include material_shadow();
-  padding: 20px;
-  border-radius: 2px;
-  color: white;
-  .abstract {
-      font-family: $subhead-text;
-      font-style: italic;
-  }
-}
 
 /* ---------images-----------*/
 
@@ -169,7 +160,7 @@ figure {
     font-size: 0.85em;
   }
   #hero {
-    height: 50vh;
+
   }
   figure {
     width: 100%;
