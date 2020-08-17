@@ -1,0 +1,16 @@
+{{ $startdate := time .Params.event_start }}
+<div class="event-date" itemprop="startDate" content="{{dateFormat "2006-01-02T15:04" $startdate}}">
+  {{dateFormat "02 January 2006" $startdate }}
+</div>
+<time class="doorTime" datetime="{{$startdate}}">{{ dateFormat "3:04 PM" $startdate }} {{with .Params.time_zone }}{{.}}{{else}}{{ dateFormat "MST" $startdate }}{{end}}{{ with .Params.event_is_virtual }} ({{ dateFormat "3:04 PM" $startdate.UTC }} GMT){{end}}</time><br />
+<div class="event_hosts">Hosted by:
+  {{ range .Params.hosts }}
+    {{ if ne .host_name "" }}
+      <span class="stack">
+          {{with .host_twitter}}<a href="https://twitter.com/{{.}}" target="_blank">{{end}}{{- .host_name -}}{{with .host_twitter}}</a>{{end}}
+      </span>
+    {{ end }}
+  {{ end }}
+</div>
+{{ with .Params.no_alcohol }}<span class="alert">This event is alcohol-free.</span>{{end}}
+{{ with .Params.accessible }}<span class="alert">This event will have accessibility accommodations.</span>{{end}}

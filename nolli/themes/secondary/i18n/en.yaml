@@ -1,0 +1,8 @@
+- id: hello
+  translation: "Hello"
+- id: how_are_you
+  translation: "How are you doing?"
+- id: donate_now
+  translation: "Donate Now"
+- id: more_details
+  translation: "More Details"

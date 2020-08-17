@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Noelita for AISD"
-theme = "main"
+theme = "secondary"
 author = "Koven J. Smith"
 summaryLength = 20
 logo = "/noelita_logo.png"
@@ -14,12 +14,12 @@ logo = "/noelita_logo.png"
 
 [styles]
   [[styles.colors]]
-    primary-color = "#7E9248"
-    accent-color = "#4C97B1"
-    accent2-color = "rgb(227, 82, 24)"
-    darkgrey-color = "#4c4c4c"
+    primary-color = "#0083C5"
+    accent-color = "#fbb816"
+    accent2-color = "#60435f"
+    darkgrey-color = "#042a2b"
     lightgrey-color = "#bfbfbf"
-    white-color = "#fbfbfb"
+    white-color = "#f1f2f6"
 
 [taxonomies]
   tag = "tags"
