@@ -130,7 +130,7 @@ button, a.button {
 /* ---------images-----------*/
 
 figure {
-  
+
   width: 367px;
 
   @include material_shadow();
@@ -170,6 +170,18 @@ figure {
   #hero {
     height: 50vh;
   }
+  figure {
+    width: 100%;
+
+  }
+  .fig-left {
+    margin-left: 0px;
+    float: none;
+  }
+  .fig-right {
+    float: none;
+    margin-left: 0px;
+  }
   .hero__content {
     position: absolute;
     top: 25vh;
@@ -188,4 +200,5 @@ figure {
     padding-left: 2px;
     }
   }
+
 }
