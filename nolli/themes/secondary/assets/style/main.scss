@@ -3,12 +3,12 @@
 
 /* ---------colors-----------*/
 
-$primary-color: {{ .Site.Data.color.primary_color | default "#7E9248" }};
-$accent-color: {{ .Site.Data.color.primary_color | default "#4C97B1" }};
-$accent2-color: {{ .Site.Data.color.primary_color | default "rgb(227, 82, 24)" }};
-$darkgrey-color: {{ .Site.Data.color.primary_color | default "#4c4c4c"}};
-$lightgrey-color: {{ .Site.Data.color.primary_color | default "#bfbfbf"}};
-$white-color: {{ .Site.Data.color.primary_color | default "#fbfbfb"}};
+$primary-color: {{ .Site.Params.primary_color  }};
+$accent-color: {{ .Site.Params.accent_color  }};
+$accent2-color: {{ .Site.Params.accent2_color  }};
+$darkgrey-color: {{ .Site.Params.darkgrey_color }};
+$lightgrey-color: {{ .Site.Params.lightgrey_color }};
+$white-color: {{ .Site.Params.white_color }};
 
 /* ---------fonts-----------*/
 

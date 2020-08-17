@@ -11,15 +11,15 @@ logo = "/noelita_logo.png"
 [outputs]
   home = ["HTML", "RSS"]
 
+[params]
 
-[styles]
-  [[styles.colors]]
-    primary-color = "#0083C5"
-    accent-color = "#fbb816"
-    accent2-color = "#60435f"
-    darkgrey-color = "#042a2b"
-    lightgrey-color = "#bfbfbf"
-    white-color = "#f1f2f6"
+
+    primary_color = "#0082c5"
+    accent_color = "#fbb816"
+    accent2_color = "#60435f"
+    darkgrey_color = "#042a2b"
+    lightgrey_color = "#bfbfbf"
+    white_color = "#f1f2f6"
 
 [taxonomies]
   tag = "tags"
