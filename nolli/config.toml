@@ -14,12 +14,12 @@ logo = "/noelita_logo.png"
 [params]
 
 
-    primary_color = "#0082c5"
-    accent_color = "#fbb816"
-    accent2_color = "#60435f"
-    darkgrey_color = "#042a2b"
+    primary_color = "#0c81bb"
+    accent_color = "#eeb226"
+    accent2_color = "#5f455e"
+    darkgrey_color = "#062728"
     lightgrey_color = "#bfbfbf"
-    white_color = "#f1f2f6"
+    white_color = "#f0f1f5"
 
 [taxonomies]
   tag = "tags"
