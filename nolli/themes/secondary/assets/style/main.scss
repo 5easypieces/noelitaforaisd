@@ -105,6 +105,7 @@ button, a.button {
 .hero__image {
   img {
     @include material_shadow();
+    border: 1px solid $lightgrey-color;
   }
 }
 
