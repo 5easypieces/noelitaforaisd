@@ -4,17 +4,22 @@
 
       {{ .Content }}
       This is the list template from the Platform directory.
+      <div class="flex one two-600">
       {{ range .Pages }}
-        <article class="card">
+        <div>
+          <article class="card">
           <header>
-            <h3>{{.Title}}</h3>
+            <h2>{{.Title}}</h2>
           </header>
           <footer>
             {{.Params.abstract}}
+            <br />
             <a href="{{.Permalink}}" class="button">Learn more</a>
           </footer>
         </article>
+        </div>
       {{ end }}
+      </div>
     </div>
   </div>
 {{ end }}

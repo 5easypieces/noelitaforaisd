@@ -32,11 +32,11 @@ logo = "/noelita_logo.png"
 
   [[menu.main]]
     name = "About"
-    url = "/pages/about"
+    url = "/about"
     weight = 25
   [[menu.main]]
-    name = "Issues"
-    url = "/pages/values"
+    name = "Platform & Values"
+    url = "/platform"
     weight = 50
   [[menu.main]]
     name = "Events"
