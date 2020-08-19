@@ -29,6 +29,7 @@ $body-text: 'Merriweather', serif;
 /* ---------main elements-----------*/
 body {
   background-color: $white-color;
+  color: $darkgrey-color;
 }
 
 h1, h2, h3, h4, h5 {
@@ -121,6 +122,36 @@ button, a.button {
 
 }
 
+.card {
+
+  header {
+    /*border-bottom: 1px solid $accent-color;*/
+    background: $primary-color;
+    color: $white-color;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+
+
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 18em;
+
+  }
+  .card__content {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 12px;
+  }
+  .button {
+    max-width: 130px;
+  }
+}
 
 
 /* ---------images-----------*/

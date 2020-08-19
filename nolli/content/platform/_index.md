@@ -10,4 +10,4 @@ resources:
     description: 'An image of Noelita Lugo speaking at a rally.'
 ---
 
-This is cotent from the platform/_index.md page.
+It would be nice if we had some introductory content here. Ideally, it would be about this long. IPhone 90's drinking vinegar selvage typewriter adaptogen. Hammock mixtape jianbing cred actually man braid, stumptown meditation umami bushwick shoreditch brunch shabby chic affogato occupy. Master cleanse portland craft beer sriracha.
