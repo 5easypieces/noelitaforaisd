@@ -57,11 +57,11 @@ logo = "/noelita_logo.png"
     title = "Noelita Para AISD"
     [[languages.es.menu.main]]
       name = "Biografía"
-      url = "/pages/about"
+      url = "/about"
       weight = 25
     [[languages.es.menu.main]]
       name = "Asuntos"
-      url = "/pages/values"
+      url = "/platform"
       weight = 50
     [[languages.es.menu.main]]
       name = "Eventos"
