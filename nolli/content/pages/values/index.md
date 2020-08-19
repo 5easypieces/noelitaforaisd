@@ -1,9 +1,9 @@
 ---
-title: Platform
-abstract:
+title: Platform & Values
+abstract: 'This is where a tag line about the platform should go.'
 draft: false
 resources:
-- src: "pols_feature30.jpg"
+- src: "noelita_community.jpg"
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

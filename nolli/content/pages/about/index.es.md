@@ -1,20 +1,32 @@
 ---
-title: Conoce a Kevin Foster
-abstract: Algunos contenidos introductorios sobre Kevin Foster
+title: Conocer a Noelita.
+abstract: ""
 draft: false
 aliases:
- - "/about"
+  - "/about"
 resources:
-- src: "pols_feature30.jpg"
+- src: "noelita_about.jpg"
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'An image of Noelita Lugo speaking at a rally.'
+    source: ''
+    description: 'Black-and-white mage of Noelita Lugo. She is facing the viewer while leaning against a wall.'
 ---
 
-El Dr. Foster es antropólogo educativo y profesor de la Universidad de Texas en Austin. Tiene más de veinte años de experiencia trabajando con estudiantes de secundaria, preparatoria, pregrado y posgrado. Mientras era un estudiante graduado de UT, dirigió LEAP (Programa de Artes de Enriquecimiento de Liderazgo) fundado por Ada Anderson, ícono de los Derechos Civiles de Austin, y durante varios años fue asistente de enseñanza del Dr. John Warfield, cuyo nombre lleva el nombre del Centro Warfield en el Campus UT. En 2005, en la escuela secundaria LBJ, el Dr. Foster, el director Patrick Patterson y varios estudiantes varones de décimo grado fundaron el programa de desarrollo académico y liderazgo estudiantil de COBRA. Posteriormente, COBRA se expandió a varias escuelas de AISD. En 2007, varias alumnas de McCallum High School solicitaron apoyo para sus intereses específicos, así es como se formó VOICES.
+Nacida y criada en una familia inmigrante de clase trabajadora que es indígena y latina (Otomí y Mexicana), Noelita se animó a sobresalir en la escuela. Aun siendo la menor de sus hermanos, Noelita fue la primera de su familia en graduarse de la universidad. Con una maestría en trabajo social de la Universidad de Texas, Noelita ha dedicado su carrera de 20 años trabajando en políticas públicas estatales enfocadas en la manutención de niños, programas del desarrollo de la fuerza laboral y programas para padres jóvenes.
 
-kevin-foster-portrait
-En 2009, el Dr. Foster fue a Washington DC para servir como miembro de la política del Poder Ejecutivo en la National Science Foundation. Regresó a Austin y a la Universidad y fundó Blackademics Television, un programa de televisión de transmisión nacional, nominado a Lone Star Emmy, con intelectuales de todos los orígenes que hablan sobre temas relacionados con Black Studies y más.
+## Madre y defensora
 
-Kevin tiene dos hijos: Malcolm y Marlee. Malcolm se graduó en 2020 de Garza Independence High School interesado en ciencias de la computación. Marlee es cantante / compositora y senior en McCallum High School. Kevin Foster se postula para la Junta Escolar para ser parte de un movimiento para traer, equidad, excelencia, integración y crecimiento al Distrito Escolar Independiente de Austin.
+{{< figure src="pease_kids.jpg" class="fig-left">}}Cuando su hijo mayor entró en la Primaria Pease, Noelita y su esposo se sintieron como la mayoría de los nuevos padres en AISD, inseguros de qué esperar, pero comprometidos a contribuir a la comunidad del campus compuesta por unas familias racialmente diversas de toda la ciudad. Además de unirse a la PTA, Noelita se desempeñó como Co-Vicepresidente de Membresía y se ofreció como voluntaria para el Comité Asesor del Campus y se desempeñó como Copresidente de Padres (2019-20) de CAC. En el otoño de 2019, sin embargo, se notó durante "Fiesta de Regresar a la Escuela" que Pease Elementary era uno de los 12 campus de mayoría-minoría designados para el cierre. Se involucró activamente en la organización de las comunidades y hizo su parte para asegurar que los padres, maestros y estudiantes tuvieran una voz real en la mesa. Asistió a las reuniones comunitarias de AISD en vecindarios de toda la ciudad, y unió esfuerzos con defensores de la educación pública, padres de doble idioma y educación especial, y vecindarios de las escuelas afectadas.
+
+## Ella persistió
+
+Si bien el resultado final fue decepcionante, ya que AISD avanzó sobre las objeciones de los padres y las voces de la comunidad, Noelita nunca se apartó de su creencia de que apoyar la educación toma una comunidad. {{< figure src="pols_feature30.jpg" class="fig-right">}}Hoy, Noelita se postula para server en La Mesa Directiva Escolar de AISD en una agenda que es inclusiva, no divisiva: ampliar las voces de la comunidad, abogar por todos los estudiantes y asegurar un proceso más abierto y colaborativo en la toma de decisiones para promover el éxito de todos los niños.
+
+## Una lider para el futuro
+
+Noelita quiere un AISD que garantice que:
+* Todos los estudiantes reciben un excelente experiencia educativa, más allá de una que se centra en la preparación de las pruebas y los puntajes, con el objetivo de crear estudiantes que sean aprendices de por vida que puedan alcanzar su máximo potencial
+* Los padres y cuidadores son plenamente invitados y bienvenidos a la mesa, donde son respetados y empoderados para ser socios activos en el éxito de su hijo.
+* Y los líderes y educadores del campus son respetados y consultados como los profesionales que son a la hora de determinar enfoques efectivos para la enseñanza, el aprendizaje y la rendición de cuentas.
+
+Noelita es cofundadora de Save Austin Schools 2019 y se ha unido a otras coaliciones como Reframe the Game, East Austin Coalition for Quality Education, AISD Equity Coalition, HABLA, Coalition for Bilingual Education Equity in Austin, Coalition for Special Education Equity in AISD y Community Resilience Trust. Es madre de tres hijos, una niña pequeño y dos estudiantes de AISD en edad primaria.
