@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div id="maincontent" class="flex six">
+    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200">
+
+      {{ .Content }}
+      This is the list template from the Platform directory.
+      {{ range .Pages }}
+        <article class="card">
+          <header>
+            <h3>{{.Title}}</h3>
+          </header>
+          <footer>
+            {{.Params.abstract}}
+            <a href="{{.Permalink}}" class="button">Learn more</a>
+          </footer>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
