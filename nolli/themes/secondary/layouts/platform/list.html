@@ -10,19 +10,7 @@
       <div class="flex one two-1000" style="padding-top: 20px;">
       {{ range .Pages }}
         <div>
-          <article class="card">
-          <header>
-            <h2>{{.Title}}</h2>
-          </header>
-          <footer>
-            <div class="card__content">
-              {{.Params.abstract}}
-            </div>
-            <br />
-            <p style="flex-grow: 1"></p>
-            <a href="{{.Permalink}}" class="button">{{ i18n "learn_more" }}</a>
-          </footer>
-        </article>
+          {{partial "card" .}}
         </div>
       {{ end }}
       </div>

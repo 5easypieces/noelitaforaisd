@@ -1,0 +1,13 @@
+<article class="card">
+  <header>
+    <h2>{{.Title}}</h2>
+  </header>
+
+  <footer>
+    <div class="card__content">
+      {{.Params.abstract}}
+    </div>
+    <p style="flex-grow: 1"></p>
+    <a href="{{.Permalink}}" class="button">{{ i18n "learn_more" }}</a>
+  </footer>
+</article>
