@@ -104,6 +104,13 @@ button, a.button {
     position: relative;
     top: 64px;
   }
+  .hero__subtitle {
+    text-align: end;
+    position: relative;
+    top: 116px;
+    font-family: $subhead-text;
+    letter-spacing: -0.5px;
+  }
 }
 
 .hero__image {
@@ -118,7 +125,18 @@ button, a.button {
   font-family: $body-text;
   font-size: 0.9em;
   line-height: 1.6em;
-  color: $darkgrey-color;
+
+
+  .abstract {
+    font-style: italic;
+    font-size: 1.2em;
+    color: $accent2-color;
+
+
+  }
+  li {
+    padding-bottom: 8px;
+  }
 
 }
 
