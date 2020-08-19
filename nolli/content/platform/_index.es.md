@@ -1,6 +1,6 @@
 ---
-title: Valores
-abstract: 
+title: Plataforma y Valores
+abstract:
 aliases:
   - "/values"
 draft: false

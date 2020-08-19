@@ -1,5 +1,5 @@
 ---
-title: Padres, Cuidadores, & Comunidad
+title: Padres, Cuidadores, y Comunidad
 abstract: 'Los padres y cuidadores deben estar auténticamente comprometidos, escuchados y respetados como los principales expertos en las necesidades de nuestros niños y escuelas.'
 draft: false
 resources:

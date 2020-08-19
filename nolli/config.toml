@@ -60,7 +60,7 @@ logo = "/noelita_logo.png"
       url = "/about"
       weight = 25
     [[languages.es.menu.main]]
-      name = "Asuntos"
+      name = "Plataforma y Valores"
       url = "/platform"
       weight = 50
     [[languages.es.menu.main]]
