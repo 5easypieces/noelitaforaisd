@@ -7,8 +7,7 @@
   {{- $.Scratch.Set "header_image_description" $image.Params.description -}}
 {{- else -}} <!--if no hero image, grab the first image in the directory and use that -->
   {{- range .Resources.ByType "image" | first 1 -}}
-    {{- $image := .Fill "1000x1000 q90" -}}
-    {{- $image = $image.Filter (images.GaussianBlur 2) -}}
+    {{- $image := .Fill "500x400 q70" -}}
     {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
   {{- end -}}
 {{- end -}}

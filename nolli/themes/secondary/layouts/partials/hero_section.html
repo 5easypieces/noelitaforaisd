@@ -1,10 +1,11 @@
 
 <div id="hero" title="" class="flex one two-500 four-1600">
   <div class="hero__title full half-500 off-fourth-1600 fourth-1600">
-    {{if eq .Section "platform" }}
+    {{if and (eq .Section "platform") (ne .Kind "section") }}
       <span class="hero__subtitle">
         Platform & Values:
       </span>
+      {{.Parent}}
     {{end}}
 
     <h1>{{.Title|markdownify}}</h1>
