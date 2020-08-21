@@ -171,6 +171,20 @@ button, a.button {
   }
 }
 
+#footernav {
+  .footernav__left {
+    text-align: end;
+
+  }
+  .footernav__right {
+    
+  }
+  .footernav__center {
+
+    text-align: center;
+  }
+}
+
 
 /* ---------images-----------*/
 
@@ -232,6 +246,12 @@ figure {
     top: 25vh;
     font-size: 0.85em;
   }
+  #footernav {
+    .footernav__left, .footernav__right {
+      text-align: center;
+    }
+  }
+
   span.brand__title {
     font-size: 1.5em;
   }
@@ -245,5 +265,6 @@ figure {
     padding-left: 2px;
     }
   }
+
 
 }

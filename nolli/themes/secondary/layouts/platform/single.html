@@ -8,19 +8,33 @@
       {{ .Content }}
     </div>
   </div>
-  {{ with or .PrevInSection .NextInSection }}
-  <div id="footernav" class="flex two">
-    {{with .NextInSection}}
-      <div class="full half-800">
-        <a href="{{.Permalink}}">{{.Title}}</a>
-      </div>
-    {{end}}
-    {{with .PrevInSection}}
-      <div class="full half-800">
-        <a href="{{.Permalink}}">{{.Title}}</a>
-      </div>
-    {{end}}
-  </div>
-  {{end}}
+
+    <div id="footernav" class="flex two">
+      {{ if (and .NextInSection .PrevInSection)}}
+        {{with .NextInSection}}
+          <div class="full half-800 footernav__left">
+            <a href="{{.Permalink}}" class="button">&laquo; {{.Title}}</a>
+          </div>
+        {{end}}
+        {{with .PrevInSection}}
+          <div class="full half-800 footernav__right">
+            <a href="{{.Permalink}}" class="button">{{.Title}} &raquo;</a>
+          </div>
+        {{end}}
+      {{else}}
+        {{with .NextInSection}}
+          <div class="full footernav__center">
+            <a href="{{.Permalink}}" class="button">&laquo; {{.Title}}</a>
+          </div>
+        {{end}}
+        {{with .PrevInSection}}
+          <div class="full footernav__center">
+            <a href="{{.Permalink}}" class="button">{{.Title}}  &raquo;</a>
+          </div>
+        {{end}}
+      {{ end }}
+
+    </div>
+
 
 {{ end }}
