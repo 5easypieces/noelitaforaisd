@@ -117,6 +117,7 @@ button, a.button {
   img {
     @include material_shadow();
     border: 1px solid $lightgrey-color;
+    max-width: 100%;
   }
 }
 
@@ -127,12 +128,17 @@ button, a.button {
   line-height: 1.6em;
 
 
-  .abstract {
+
+  .maincontent__abstract {
     font-style: italic;
     font-size: 1.2em;
     color: $accent2-color;
+    max-width: 850px;
 
 
+  }
+  .maincontent__content {
+    max-width: 850px;
   }
   li {
     padding-bottom: 8px;
@@ -177,7 +183,7 @@ button, a.button {
 
   }
   .footernav__right {
-    
+
   }
   .footernav__center {
 
@@ -245,6 +251,11 @@ figure {
     position: absolute;
     top: 25vh;
     font-size: 0.85em;
+  }
+  .hero__image {
+    img {
+      max-width: 100%;
+    }
   }
   #footernav {
     .footernav__left, .footernav__right {
