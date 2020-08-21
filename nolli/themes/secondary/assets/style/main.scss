@@ -147,7 +147,7 @@ button, a.button {
 }
 
 .card {
-
+  @include material_shadow();
   header {
     /*border-bottom: 1px solid $accent-color;*/
     background: $primary-color;
@@ -228,25 +228,16 @@ figure {
 
 /* ---------responsive-----------*/
 
+
+
+
 @media only screen and (max-width: 600px) {
   #maincontent, #footercontent, #contentnav, #hero,  {
     font-size: 0.85em;
   }
-  #hero {
 
-  }
-  figure {
-    width: 100%;
 
-  }
-  .fig-left {
-    margin-left: 0px;
-    float: none;
-  }
-  .fig-right {
-    float: none;
-    margin-left: 0px;
-  }
+
   .hero__content {
     position: absolute;
     top: 25vh;
@@ -276,6 +267,20 @@ figure {
     padding-left: 2px;
     }
   }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+  .fig-left, .fig-right {
+    float: none;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+
 
 
 }
