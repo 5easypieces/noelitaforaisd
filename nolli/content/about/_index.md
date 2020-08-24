@@ -1,6 +1,6 @@
 ---
 title: Meet Noelita.
-abstract: "Because every student deserves the chance to succeed."
+abstract: "Every student deserves the chance to succeed."
 draft: false
 resources:
 - src: "noelita_about.jpg"

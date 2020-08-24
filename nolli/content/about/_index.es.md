@@ -1,6 +1,6 @@
 ---
 title: Conocer a Noelita.
-abstract: ""
+abstract: "Todo estudiante merece tener éxito."
 draft: false
 resources:
 - src: "noelita_about.jpg"
