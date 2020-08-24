@@ -290,6 +290,32 @@ figure {
   #maincontent, #footercontent, #contentnav, #hero,  {
     font-size: 0.85em;
   }
+  .menu {
+    background-color: $primary-color!important;
+  }
+
+  .hero__title {
+    h1 {
+      text-align: left;
+      font-size: 1.8em;
+      top: -10px;
+      letter-spacing: -1.1px;
+    }
+    .hero__abstract {
+      position: inherit;
+      top: 0px;
+      text-align: left;
+    }
+    .hero__subtitle {
+      display: none;
+    }
+  }
+  .maincontent__abstract {
+      font-size: 1em;
+    }
+  .maincontent__content {
+    font-size: 0.85em;
+  }
 
 
 
@@ -326,7 +352,7 @@ figure {
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
 
 
   .fig-left, .fig-right {
