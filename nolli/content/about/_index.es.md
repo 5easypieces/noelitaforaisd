@@ -2,8 +2,6 @@
 title: Conocer a Noelita.
 abstract: ""
 draft: false
-aliases:
-  - "/about"
 resources:
 - src: "noelita_about.jpg"
   name: hero

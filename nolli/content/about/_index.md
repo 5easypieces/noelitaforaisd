@@ -2,8 +2,6 @@
 title: Meet Noelita.
 abstract: "Because every student deserves the chance to succeed."
 draft: false
-aliases:
-  - "/about"
 resources:
 - src: "noelita_about.jpg"
   name: hero
