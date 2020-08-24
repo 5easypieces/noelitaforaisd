@@ -12,7 +12,7 @@
     <span class="languagenav">{{ partial "languagenav" . }}</span>
     <br>
     {{ range .Site.Menus.main }}
-      <a href="{{.URL | relLangURL }}" class="pseudo button icon-picture">{{ .Name }}</a>
+      <a href="{{.URL | relLangURL }}" class="{{if ne .URL "http://dwy.io/Noelita4AISD" }}pseudo{{end}} button icon-picture" {{if eq .URL "http://dwy.io/Noelita4AISD" }}target="_blank"{{end}}>{{ .Name }}</a>
     {{ end }}
 
 

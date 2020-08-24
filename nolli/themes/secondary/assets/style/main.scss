@@ -57,8 +57,8 @@ nav {
   .languagenav {
     font-size: 0.65em;
     position: absolute;
-    top: 2px;
-    right: 18px;
+    top: -5px;
+    right: 0px;
   }
   .burger {
     top: 40px;
@@ -75,6 +75,9 @@ button, a.button {
   color: $darkgrey-color;
   font-family: $subhead-text;
 }
+
+
+
 
 /* ---------home page-----------*/
 #hero-home {
@@ -240,6 +243,8 @@ button, a.button {
     text-align: center;
   }
 }
+
+
 
 
 /* ---------images-----------*/

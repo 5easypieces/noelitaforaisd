@@ -44,6 +44,7 @@ logo = "/noelita_logo.png"
     weight = 100
   [[menu.main]]
     name = "Donate"
+    normalizedname = "donate"
     url = "http://dwy.io/Noelita4AISD"
     weight = 150
 
@@ -68,6 +69,7 @@ logo = "/noelita_logo.png"
       url = "/events"
       weight = 100
     [[languages.es.menu.main]]
-      url    = "/pages/getinvolved"
-      name   = "Participar"
+      name = "Donar"
+      normalizedname = "donate"
+      url = "http://dwy.io/Noelita4AISD"
       weight = 150
