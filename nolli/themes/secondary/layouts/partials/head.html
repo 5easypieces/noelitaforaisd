@@ -26,7 +26,7 @@
 {{ $icon := resources.Get "images/noelita_icon.png" }}
 
 <link rel="shortcut icon" type="image/png" href="{{$icon.Permalink}}"/>
-
+  
 
 <!--test content {{ .CurrentSection }} -->
 {{ if and (eq .Section "events") (eq .Kind "page") }} <!--only display RDF when page is a single event listing-->
