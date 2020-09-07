@@ -32,3 +32,5 @@ Noelita envisions an AISD that ensures:
 Noelita is a co-founder of Save Austin Schools 2019 and has joined other coalitions such as Reframe the Game, East Austin Coalition for Quality Education, AISD Equity Coalition, HABLA, Dual Language/Lingue Dual Austin, Coalition for Special Education Equity in AISD, and the Community Resilience Trust. She is the mother of three, a toddler and two elementary-age AISD students.
 
 {{< volunteer >}}
+
+{{< donate >}}
