@@ -3,7 +3,7 @@ title: Conocer a Noelita.
 abstract: "Todo estudiante merece tener éxito."
 draft: false
 resources:
-- src: "noelita_about.jpg"
+- src: "_MG_5052-Edit.jpg"
   name: hero
   params:
     source: ''
