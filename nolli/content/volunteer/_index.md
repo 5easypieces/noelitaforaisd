@@ -1,6 +1,6 @@
 ---
-title: Meet Noelita.
-abstract: "Every student deserves the chance to succeed."
+title: Volunteer
+abstract: ""
 draft: false
 resources:
 - src: "_MG_5046-Edit.jpg"
