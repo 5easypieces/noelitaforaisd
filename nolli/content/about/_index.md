@@ -3,7 +3,7 @@ title: Meet Noelita.
 abstract: "Every student deserves the chance to succeed."
 draft: false
 resources:
-- src: "_MG_5052-Edit.jpg"
+- src: "_MG_5046-Edit.jpg"
   name: hero
   params:
     source: ''
@@ -20,7 +20,7 @@ Coming from a working-class immigrant family that is both indigenous and Latino 
 
 ## She persisted
 
-While the eventual outcome was disappointing, as AISD moved forward over the objections of parents and community voices, Noelita never backed down from her belief that supporting education takes a community. {{< figure src="pols_feature30.jpg" class="fig-right">}}Today, Noelita is running for the AISD School Board on an agenda that is inclusive, not divisive — expanding community voices, advocating for all students, and ensuring a more open and collaborative process in decision making to promote the success of every child.
+While the eventual outcome was disappointing, as AISD moved forward over the objections of parents and community voices, Noelita never backed down from her belief that supporting education takes a community. {{< figure src="IMG_2185.JPG" class="fig-right">}}Today, Noelita is running for the AISD School Board on an agenda that is inclusive, not divisive — expanding community voices, advocating for all students, and ensuring a more open and collaborative process in decision making to promote the success of every child.
 
 ## A leader for the future
 

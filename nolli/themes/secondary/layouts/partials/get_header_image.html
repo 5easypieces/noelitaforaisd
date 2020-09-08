@@ -1,6 +1,6 @@
 {{- if .Resources.GetMatch "hero" -}}
   {{- $image := .Resources.GetMatch "hero" -}}
-  {{- $image := $image.Fill "500x500 q70" -}}
+  {{- $image := $image.Fill "700x500 q70" -}}
 
   {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
   {{- $.Scratch.Set "header_image_source" $image.Params.source -}}

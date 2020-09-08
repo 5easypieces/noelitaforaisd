@@ -3,7 +3,7 @@ title: Platform & Values
 abstract: 'This is where a tag line about the platform should go.'
 draft: false
 resources:
-- src: "noelita_community.jpg"
+- src: "_MG_5019-Edit.jpg"
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
