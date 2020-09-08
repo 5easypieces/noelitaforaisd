@@ -3,7 +3,7 @@ description: "All upcoming Noelita for AISD events."
 tagline: "Here's a short summary"
 title: "Upcoming Events"
 resources:
-- src: "noelita_zoom.jpg"
+- src: "noelita_community.jpg"
   name: hero
   params:
     source: ''
