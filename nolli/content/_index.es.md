@@ -2,7 +2,7 @@
 title: Noelita Lugo para Fideicomisario At-Large de AISD
 abstract: Todo estudiante merece tener éxito.
 resources:
-- src: "IMG_2185.JPG"
+- src: "_MG_5046-Edit.jpg"
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
