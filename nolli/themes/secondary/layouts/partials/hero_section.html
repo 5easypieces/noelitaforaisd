@@ -1,6 +1,6 @@
 
-<div id="hero" title="" class="flex one two-500 four-1600">
-  <div class="hero__title full half-500 off-fourth-1600 fourth-1600">
+<div id="hero" title="" class="flex six">
+  <div class="hero__title full half-900 off-sixth-1600 fourth-1600">
     {{if ne .Kind "section" }} <!--Add section header for inner pages-->
       <div class="hero__subtitle">
         {{with .GetPage "."}}{{.Title}}{{end}}
@@ -9,15 +9,17 @@
     {{end}}
 
     <h1>{{.Title|markdownify}}</h1>
-    {{if ne .Section "platform" }}
-      {{with .Params.abstract}}
-        <div class="hero__abstract">
-          {{ . |markdownify}}
-        </div>
-      {{end}}
-    {{ end }}
+
   </div>
-  <div class="hero__image full half-500">
+  <div class="hero__image full half-900">
+    {{$header_image := .Scratch.Get "header_image_url"}}
+    {{if $header_image }}
+
+
     <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}" >
+    {{else}}
+    {{ $logo := resources.Get "images/noelita_logo.png" }}
+    <img class="logo" src="{{$logo.Permalink}}" />
+    {{end}}
   </div>
 </div>
