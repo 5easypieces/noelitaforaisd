@@ -3,7 +3,7 @@ title: Students
 draft: false
 abstract: All students are entitled to and should have access to a rich educational experience so that they can actualize their highest potential academically and in life.
 resources:
-- src: "noelita_community.jpg"
+- src: ""
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

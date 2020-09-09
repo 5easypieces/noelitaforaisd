@@ -3,12 +3,7 @@
 <div id="hero" title="" class="flex six">
 
   <div class="hero__title full half-900 off-sixth-1600 fourth-1600">
-    {{if ne .Kind "section" }} <!--Add section header for inner pages-->
-      <div class="hero__subtitle">
-        {{with .GetPage "."}}{{.Title}}{{end}}
-      </div>
 
-    {{end}}
 
     <h1>{{.Title|markdownify}}</h1>
 
@@ -31,7 +26,7 @@
 
   <div class="hero__title-noimage full off-sixth-800 two-third-800 off-fourth-1200 half-1200">
 
-
+    
     <h1>{{.Title|markdownify}}</h1>
 
   </div>
