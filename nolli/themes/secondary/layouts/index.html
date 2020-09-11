@@ -32,7 +32,7 @@
             <h1>{{.Title|markdownify}}</h1>
             <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span>
             {{- if eq .Kind "home" -}}
-            <br/><a class="button" href="https://example.com">{{i18n "donate_now" }}</a>
+            <br/>{{ with .Site.GetPage "donate" }}<a class="button" href="{{.URL | relLangURL }}">{{i18n "donate_now" }}</a>{{end}}
             {{ end }}
           </div>
           </div>
