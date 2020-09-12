@@ -10,3 +10,15 @@
   translation: "Learn More"
 - id: legalese
   translation: "Paid for and authorized by the Noelita Lugo for AISD At-Large campaign"
+- id: submitter_name
+  translation: "Name"
+- id: submitter_email
+  translation: "Your E-Mail"
+- id: message
+  translation: "Message"
+- id: subject
+  translation: "Subject"
+- id: submit
+  translation: "Submit"
+- id: accept_storage
+  translation: "I agree that my submitted data is being collected and stored."

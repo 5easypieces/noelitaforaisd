@@ -10,3 +10,15 @@
   translation: "Aprende Más"
 - id: legalese
   translation: "Compra pagada y autorizada para la campaña At-Large de Noelita Lugo para AISD"
+- id: submitter_name
+  translation: "Nombre y Apellido"
+- id: submitter_email
+  translation: "Correo Electrónico"
+- id: message
+  translation: "Mensaje"
+- id: subject
+  translation: "Título"
+- id: submit
+  translation: "Enviar"
+- id: accept_storage
+  translation: "Acepto que los datos enviados se recopilen y almacenen."

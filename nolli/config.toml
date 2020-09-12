@@ -35,13 +35,17 @@ logo = "/noelita_logo.png"
     url = "/about"
     weight = 25
   [[menu.main]]
-    name = "Platform & Values"
+    name = "Platform"
     url = "/platform"
     weight = 50
   [[menu.main]]
     name = "Get Involved"
     url = "/volunteer"
     weight = 125
+  [[menu.main]]
+    name = "Contact"
+    url = "/about/contact"
+    weight = 135
   [[menu.main]]
     name = "Donate"
     url = "/donate"
@@ -60,13 +64,17 @@ logo = "/noelita_logo.png"
       url = "/about"
       weight = 25
     [[languages.es.menu.main]]
-      name = "Plataforma y Valores"
+      name = "Plataforma"
       url = "/platform"
       weight = 50
     [[languages.es.menu.main]]
       name = "Involúcrate"
       url = "/volunteer"
       weight = 100
+    [[languages.es.menu.main]]
+        name = "Contactarnos"
+        url = "/about/contact"
+        weight = 135
     [[languages.es.menu.main]]
       name = "Donar"
       url = "/donate"
