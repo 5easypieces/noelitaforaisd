@@ -70,13 +70,30 @@ nav {
   }
 }
 
+main {
+  min-height: 100%;
+  margin-bottom: -28px;
+}
+
 button, a.button {
   background-color: $accent-color;
   color: $darkgrey-color;
   font-family: $subhead-text;
 }
 
+#footer {
 
+
+     width: 100%;
+     background-color: $primary-color;
+     color: $white-color;
+     font-family: $subhead-text;
+     text-align: center;
+     height: 28px;
+
+}
+
+.push {height: 28px;}
 
 
 /* ---------home page-----------*/
