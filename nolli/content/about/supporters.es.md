@@ -21,10 +21,10 @@ resources:
 
 * Representative Gina Hinojosa
 * County Commissioner Brigid Shae
-* City Councilwoman Kathi Tovo
+* City Councilwoman Kathie Tovo
 * Former AISD Trustee Paul Saldaña
 * Chapter President of NAACP Austin Nelson Linder
-* Austin City Councilwoman Laura Morrison
+* Former City Councilwoman Laura Morrison
 * Laura Yeager
 * Valerie Stern
 * Roxanne Evans, award winning journalist
