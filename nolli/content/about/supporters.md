@@ -16,9 +16,17 @@ resources:
 * Austin Environmental Democrats
 * South Austin Democrats
 * Austin Central Labor Council
+
+
+## Noelita Lugo is supported by:
+
+* Representative Gina Hinojosa
+* County Commissioner Brigid Shae
+* City Councilwoman Kathi Tovo
+* Former AISD Trustee Paul Saldaña
+* Chapter President of NAACP Austin Nelson Linder
 * Austin City Councilwoman Laura Morrison
 * Laura Yeager
-* Paul Saldaña
 * Valerie Stern
 * Roxanne Evans, award winning journalist
 * Jim Harrington, Founder and Director Emeritus, Texas Civil Rights Project
@@ -35,11 +43,3 @@ resources:
 * Robin Nelson
 * April Clark
 * Layla Mansuri
-
-## Noelita Lugo is supported by:
-
-* Representative Gina Hinojosa
-* County Commissioner Brigid Shae
-* City Councilwoman Kathi Tovo
-* Former AISD Trustee Paul Saldaña
-* Chapter President of NAACP Austin Nelson Linder
