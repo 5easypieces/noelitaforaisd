@@ -22,7 +22,7 @@ resources:
 
 * Representative Gina Hinojosa
 * County Commissioner Brigid Shae
-* City Councilwoman Kathis Tovo
+* City Councilwoman Kathie Tovo
 * Former AISD Trustee Paul Saldaña
 * Chapter President of NAACP Austin Nelson Linder
 * Former City Councilwoman Laura Morrison
