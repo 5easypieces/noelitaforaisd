@@ -39,6 +39,10 @@ logo = "/noelita_logo.png"
     url = "/platform"
     weight = 50
   [[menu.main]]
+    name = "Endorsements"
+    url = "/about/supporters"
+    weight = 75
+  [[menu.main]]
     name = "Get Involved"
     url = "/volunteer"
     weight = 125
@@ -67,6 +71,10 @@ logo = "/noelita_logo.png"
       name = "Plataforma"
       url = "/platform"
       weight = 50
+    [[languages.es.menu.main]]
+      name = "Endosos"
+      url = "/about/supporters"
+      weight = 75
     [[languages.es.menu.main]]
       name = "Involúcrate"
       url = "/volunteer"
