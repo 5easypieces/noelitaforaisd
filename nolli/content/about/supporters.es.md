@@ -42,3 +42,7 @@ resources:
 * Robin Nelson
 * April Clark
 * Layla Mansuri
+* Leila Melham
+* Dusty Harshman
+* Julie Ann Nitsch, Austin Community College Board of Trustees
+* Cecilia Burke
