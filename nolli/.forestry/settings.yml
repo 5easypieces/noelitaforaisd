@@ -31,7 +31,7 @@ sections:
   match: "**/*"
 - type: directory
   path: nolli/content/about
-  label: About
+  label: About, Donate, Volunteer
   create: all
   match: "**/*"
 upload_dir: nolli//static/uploads
