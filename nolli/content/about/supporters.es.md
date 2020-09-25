@@ -1,21 +1,21 @@
 ---
 title: Endosos
 abstract: ''
-draft: false
 resources:
-- src: ""
+- src: ''
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'An image of Noelita Lugo speaking at a rally.'
----
+    source: "[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)"
+    description: An image of Noelita Lugo speaking at a rally.
 
+---
 ## Noelita Lugo está respaldada por:
 
 * Education Austin
 * Austin Environmental Democrats
 * South Austin Democrats
 * Austin Central Labor Council
+* Black Austin Democrats
 
 ## Noelita Lugo es apoyada por:
 
@@ -46,3 +46,4 @@ resources:
 * Dusty Harshman
 * Julie Ann Nitsch, Austin Community College Board of Trustees
 * Cecilia Burke
+* Alberto C & Rosa Maria Gonzalez
