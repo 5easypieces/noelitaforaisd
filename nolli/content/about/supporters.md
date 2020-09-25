@@ -1,22 +1,21 @@
 ---
 title: Supporters & Endorsements
 abstract: ''
-draft: false
 resources:
-- src: ""
+- src: ''
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'An image of Noelita Lugo speaking at a rally.'
----
+    source: "[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)"
+    description: An image of Noelita Lugo speaking at a rally.
 
+---
 ## Noelita Lugo is endorsed by:
 
 * Education Austin
 * Austin Environmental Democrats
 * South Austin Democrats
 * Austin Central Labor Council
-
+* Black Austin Democrats
 
 ## Noelita Lugo is supported by:
 
@@ -47,3 +46,4 @@ resources:
 * Dusty Harshman
 * Julie Ann Nitsch, Austin Community College Board of Trustees
 * Cecilia Burke
+* Alberto C & Rosa Maria Gonzalez
