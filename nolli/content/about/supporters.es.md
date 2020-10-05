@@ -12,8 +12,10 @@ resources:
 ## Noelita Lugo está respaldada por:
 
 * Education Austin
+* Austin Chronicle
 * Austin Environmental Democrats
 * South Austin Democrats
+* Stonewall Democrats
 * Austin Central Labor Council
 * Black Austin Democrats
 * West Austin Democrats
@@ -27,6 +29,7 @@ resources:
 * Former AISD Trustee Paul Saldaña
 * Chapter President of NAACP Austin Nelson Linder
 * Former City Councilwoman Laura Morrison
+* Rubén Cantú, Executive Director of The Office of Inclusive Innovation and Entrepreneurship, UT Austin
 * Laura Yeager
 * Valerie Stern
 * Roxanne Evans, award winning journalist
