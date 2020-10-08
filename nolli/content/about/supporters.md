@@ -20,6 +20,8 @@ resources:
 * West Austin Democrats
 * Stonewall Democrats
 * Laborers' International Union of North America (LIUNA)
+* Liberal Austin Dems
+* Equipping Texas
 
 ## Noelita Lugo is supported by:
 
@@ -52,3 +54,4 @@ resources:
 * Julie Ann Nitsch, Austin Community College Board of Trustees
 * Cecelia Burke, Former Travis County Tax Assessor Collector
 * Alberto C & Rosa Maria Gonzalez
+* Marc Rodriguez
