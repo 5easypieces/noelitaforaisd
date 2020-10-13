@@ -22,6 +22,7 @@ resources:
 * Laborers' International Union of North America (LIUNA)
 * Liberal Austin Dems
 * Equipping Texas
+* Austin Young Democrats
 
 ## Noelita Lugo is supported by:
 
