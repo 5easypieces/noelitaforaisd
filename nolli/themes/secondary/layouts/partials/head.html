@@ -28,6 +28,17 @@
 
 <link rel="shortcut icon" type="image/png" href="{{$icon.Permalink}}"/>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.Params.analyticsid}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{.Site.Params.analyticsid}}');
+</script>
+
+
 
 <!--test content {{ .CurrentSection }} -->
 {{ if and (eq .Section "events") (eq .Kind "page") }} <!--only display RDF when page is a single event listing-->

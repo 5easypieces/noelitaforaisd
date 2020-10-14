@@ -21,6 +21,7 @@ logo = "/noelita_logo.png"
     lightgrey_color = "#bfbfbf"
     white_color = "#f0f1f5"
     forestryid = "nfkkwqzqof4"
+    analyticsid = "UA-177902406-1"
 
 [taxonomies]
   tag = "tags"
