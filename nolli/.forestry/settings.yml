@@ -5,6 +5,11 @@ admin_path: "/nolli/static/admin/"
 webhook_url: 
 sections:
 - type: directory
+  path: nolli/content/about
+  label: Endorsements & Contact
+  create: all
+  match: "**/*"
+- type: directory
   path: nolli/content
   label: Pages
   create: all
@@ -27,11 +32,6 @@ sections:
 - type: directory
   path: nolli/content/donate
   label: Donate
-  create: all
-  match: "**/*"
-- type: directory
-  path: nolli/content/about
-  label: Endorsements & Contact
   create: all
   match: "**/*"
 upload_dir: nolli//static/uploads
