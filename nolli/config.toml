@@ -1,10 +1,15 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
 title = "Noelita for AISD"
 theme = "secondary"
 author = "Koven J. Smith"
 summaryLength = 20
 logo = "/noelita_logo.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 
 
