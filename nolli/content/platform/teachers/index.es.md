@@ -3,7 +3,7 @@ title: Maestros
 abstract: 'Los líderes y educadores del campus deben ser respetados y consultados como los profesionales que son al determinar enfoques efectivos para la enseñanza y el aprendizaje y la rendición de cuentas.'
 draft: false
 resources:
-- src: "noelita_community.jpg"
+- src: ""
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

@@ -3,7 +3,7 @@ title: Orgullo
 abstract: 'La comunidad de Austin apoya a nuestras escuelas públicas y quiere sentirse orgullosa del trabajo de AISD. Austin ISD puede ser un distrito escolar del que todos podamos sentirnos orgullosos, uno que refleje una alineación de nuestros valores y nuestras prácticas educativas.'
 draft: false
 resources:
-- src: "noelita_community.jpg"
+- src: ""
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

@@ -3,7 +3,7 @@ title: Noelita Lugo for AISD Trustee At-Large
 abstract: Every student deserves the chance to succeed.
 draft: false
 resources:
-- src: "IMG_2185.JPG"
+- src: "_MG_5046-Edit.jpg"
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

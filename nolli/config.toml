@@ -25,6 +25,8 @@ logo = "/noelita_logo.png"
     darkgrey_color = "#062728"
     lightgrey_color = "#bfbfbf"
     white_color = "#f0f1f5"
+    forestryid = "nfkkwqzqof4"
+    analyticsid = "UA-177902406-1"
 
 [taxonomies]
   tag = "tags"
@@ -40,16 +42,24 @@ logo = "/noelita_logo.png"
     url = "/about"
     weight = 25
   [[menu.main]]
-    name = "Platform & Values"
+    name = "Platform"
     url = "/platform"
     weight = 50
   [[menu.main]]
-    name = "Events"
-    url = "/events"
-    weight = 100
+    name = "Endorsements"
+    url = "/about/supporters"
+    weight = 75
+  [[menu.main]]
+    name = "Get Involved"
+    url = "/volunteer"
+    weight = 125
+  [[menu.main]]
+    name = "Contact"
+    url = "/about/contact"
+    weight = 135
   [[menu.main]]
     name = "Donate"
-    url = "http://dwy.io/Noelita4AISD"
+    url = "/donate"
     weight = 150
 
 [languages]
@@ -65,14 +75,22 @@ logo = "/noelita_logo.png"
       url = "/about"
       weight = 25
     [[languages.es.menu.main]]
-      name = "Plataforma y Valores"
+      name = "Plataforma"
       url = "/platform"
       weight = 50
     [[languages.es.menu.main]]
-      name = "Eventos"
-      url = "/events"
+      name = "Endosos"
+      url = "/about/supporters"
+      weight = 75
+    [[languages.es.menu.main]]
+      name = "Involúcrate"
+      url = "/volunteer"
       weight = 100
     [[languages.es.menu.main]]
+        name = "Contactarnos"
+        url = "/about/contact"
+        weight = 135
+    [[languages.es.menu.main]]
       name = "Donar"
-      url = "http://dwy.io/Noelita4AISD"
+      url = "/donate"
       weight = 150

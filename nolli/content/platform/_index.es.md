@@ -5,7 +5,7 @@ aliases:
   - "/values"
 draft: false
 resources:
-- src: "noelita_community.jpg"
+- src: "_MG_5019-Edit.jpg"
   name: hero
   params:
     source: 'Personal photo'

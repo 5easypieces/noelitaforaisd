@@ -3,7 +3,7 @@ title: Pride
 abstract: 'The Austin community supports our public schools and wants to feel pride in the work of AISD.  Austin ISD can be a school district we can all feel proud of, one that reflects an alignment of our values and our educational practices.'
 draft: false
 resources:
-- src: "noelita_community.jpg"
+- src: ""
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

@@ -1,0 +1,12 @@
+[[supporters]]
+name = "Paul Saldaña"
+org = "Founder and Director Emeritus, Texas Civil Rights Project"
+url = "https://twitter.com/paulsaldana"
+imageurl = "https://www.fillmurray.com/200/300"
+type = "endorsement"
+
+[[supporters]]
+name = "This is a supporter"
+url = "https://google.com"
+imageurl = "https://www.fillmurray.com/200/300"
+type = "supporter"

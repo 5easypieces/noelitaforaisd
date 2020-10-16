@@ -3,7 +3,7 @@ title: Estudiantes
 draft: false
 abstract: Todos los estudiantes tienen derecho y deben tener acceso a una rica experiencia educativa para que puedan actualizar su máximo potencial académico y en la vida.
 resources:
-- src: "noelita_community.jpg"
+- src: ""
   name: hero
   params:
     source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'

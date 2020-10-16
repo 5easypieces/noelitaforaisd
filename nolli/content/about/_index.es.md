@@ -3,7 +3,7 @@ title: Conocer a Noelita.
 abstract: "Todo estudiante merece tener éxito."
 draft: false
 resources:
-- src: "noelita_about.jpg"
+- src: "_MG_5046-Edit.jpg"
   name: hero
   params:
     source: ''
@@ -18,7 +18,7 @@ Nacida y criada en una familia inmigrante de clase trabajadora que es indígena 
 
 ## Ella persistió
 
-Si bien el resultado final fue decepcionante, ya que AISD avanzó sobre las objeciones de los padres y las voces de la comunidad, Noelita nunca se apartó de su creencia de que apoyar la educación toma una comunidad. {{< figure src="pols_feature30.jpg" class="fig-right">}}Hoy, Noelita se postula para server en La Mesa Directiva Escolar de AISD en una agenda que es inclusiva, no divisiva: ampliar las voces de la comunidad, abogar por todos los estudiantes y asegurar un proceso más abierto y colaborativo en la toma de decisiones para promover el éxito de todos los niños.
+Si bien el resultado final fue decepcionante, ya que AISD avanzó sobre las objeciones de los padres y las voces de la comunidad, Noelita nunca se apartó de su creencia de que apoyar la educación toma una comunidad. {{< figure src="IMG_2185.JPG" class="fig-right">}}Hoy, Noelita se postula para server en La Mesa Directiva Escolar de AISD en una agenda que es inclusiva, no divisiva: ampliar las voces de la comunidad, abogar por todos los estudiantes y asegurar un proceso más abierto y colaborativo en la toma de decisiones para promover el éxito de todos los niños.
 
 ## Una lider para el futuro
 
