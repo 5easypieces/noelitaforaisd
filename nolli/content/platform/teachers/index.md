@@ -1,6 +1,6 @@
 ---
 title: Teachers
-abstract: 'All students are entitled to and should have access to a rich educational experience so that they can actualize their highest potential academically and in life.'
+abstract: 'Campus leaders and educators must be respected and consulted as the professionals they are when determining effective approaches to teaching and learning and accountability.'
 draft: false
 resources:
 - src: ""
