@@ -1,0 +1,22 @@
+{
+  "name": "nolli",
+  "version": "1.0.0",
+  "description": "Website for Noelita Lugo running for AISD at-large position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5easypieces/noelitaforaisd.git"
+  },
+  "author": "Koven J. Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5easypieces/noelitaforaisd/issues"
+  },
+  "homepage": "https://github.com/5easypieces/noelitaforaisd#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}

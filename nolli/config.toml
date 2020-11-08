@@ -5,6 +5,7 @@ theme = "secondary"
 author = "Koven J. Smith"
 summaryLength = 20
 logo = "/noelita_logo.png"
+env = "production"
 
 [markup]
   [markup.goldmark]
@@ -27,6 +28,7 @@ logo = "/noelita_logo.png"
     white_color = "#f0f1f5"
     forestryid = "nfkkwqzqof4"
     analyticsid = "UA-177902406-1"
+    env = "production"
 
 [taxonomies]
   tag = "tags"

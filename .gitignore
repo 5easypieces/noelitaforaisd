@@ -3,6 +3,6 @@ resources/
 
 
 npm-debug.log
-/node_modules
+node_modules/
 nolli/public
 .DS_Store
