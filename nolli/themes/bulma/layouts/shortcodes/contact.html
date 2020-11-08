@@ -1,0 +1,18 @@
+<form name="main_contact" action="/pages/submit/" method="POST" data-netlify="true">
+  <fieldset class="flex two">
+    <label class="full half-900"><input type="text" placeholder="{{ i18n "submitter_name" }}" name="submitter_name"></label>
+    <label class="full half-900"><input type="email" placeholder="{{ i18n "submitter_email" }}"  name="submitter_email"></label>
+  </fieldset>
+  <fieldset class="flex">
+    <label><input type="text" placeholder="{{ i18n "subject" }}" name="subject"></label>
+  </fieldset>
+  <textarea name="submitter_message" placeholder="{{ i18n "message" }}"></textarea>
+  <fieldset class="flex two">
+    <label class="full half-900">
+      <input type="checkbox" checked>
+      <span class="checkable">{{ i18n "accept_storage"}}</span>
+    </label>
+  <button type="submit" class="button" class="full half-900">{{ i18n "submit"}}</button>
+  </fieldset>
+
+</form>

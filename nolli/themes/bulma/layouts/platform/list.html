@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div id="maincontent" class="flex six">
+    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200 maincontent__content">
+        {{.Content}}
+    </div>
+    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200">
+
+
+
+      <div class="flex one two-1000" style="padding-top: 20px;">
+      {{ range .Pages }}
+        <div>
+          {{partial "card" .}}
+        </div>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

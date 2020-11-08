@@ -1,0 +1,6 @@
+{{ if .IsTranslated }}
+  {{ $.Scratch.Set "language" .Language }}
+  {{ range .AllTranslations }}
+    <a href="{{ .Permalink }}" class="{{- if eq ($.Scratch.Get "language") .Language -}}active{{end}} pseudo button">{{ .Language.LanguageName }}</a>
+  {{ end}}
+{{ end }}

@@ -1,0 +1,23 @@
+<nav>
+  <a href="{{ .Site.Home.Permalink }}" class="brand">
+    {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
+    <img class="logo" src="{{$logo.Permalink}}" />
+
+
+  </a>
+  <!-- responsive-->
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">&#9776;</label>
+  <div class="menu">
+    <span class="languagenav">{{ partial "languagenav" . }}</span>
+    <br>
+    {{ range .Site.Menus.main }}
+      <a href="{{.URL | relLangURL }}" class="{{if ne .URL "/donate" }}pseudo{{end}} button icon-picture">{{ .Name }}</a>
+    {{ end }}
+
+
+
+  </div>
+
+
+</nav>

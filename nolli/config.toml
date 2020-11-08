@@ -1,11 +1,11 @@
 baseURL = "https://noelitaforaisd.com"
 languageCode = "en-us"
 title = "Noelita for AISD"
-theme = "secondary"
+theme = "bulma"
 author = "Koven J. Smith"
 summaryLength = 20
 logo = "/noelita_logo.png"
-env = "production"
+env = ""
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,13 @@
+{{ $endtime := 1593892706 }}
+{{ if and (isset .Params "event_end") (ne .Params.event_end "") }}
+  {{ $.Scratch.Set "endtime" .Params.event_end }}
+{{ else }}
+  {{ $starttime := .Params.event_start | time }}
+  {{ $endtime := $starttime.Add 7200000000000 }}
+  {{ $.Scratch.Set "endtime" $endtime }}
+
+{{ end }}
+{{$endtime := $.Scratch.Get "endtime"}}
+
+
+{{ return $endtime }}

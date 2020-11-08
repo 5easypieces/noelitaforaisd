@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Language }}">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ partial "header" . }}
+    <main id="home">
+      {{ partial "get_header_image" . }}
+      {{ partial "hero_section" . }}
+      {{ block "main" . }}{{ end }}
+      <div class="push"></div> <!--spacer for footer-->
+    </main>
+    {{ partial "footer" .}}
+  </body>
+</html>

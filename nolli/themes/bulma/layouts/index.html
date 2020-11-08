@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ .Language }}">
+  <head>
+    {{ partial "head" . }}
+  </head>
+
+  <body>
+    {{ partial "header" . }}
+
+
+    <main id="home">
+
+      {{- if .Resources.GetMatch "hero" -}}
+        {{- $image := .Resources.GetMatch "hero" -}}
+        {{- $image := $image.Fill "1600x1000 q90" -}}
+
+        {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
+        {{- $.Scratch.Set "header_image_source" $image.Params.source -}}
+        {{- $.Scratch.Set "header_image_description" $image.Params.description -}}
+      {{- else -}} <!--if no hero image, grab the first image in the directory and use that -->
+        {{- range .Resources.ByType "image" | first 1 -}}
+          {{- $image := .Fill "1000x1000 q90" -}}
+          {{- $image = $image.Filter (images.GaussianBlur 2) -}}
+          {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
+        {{- end -}}
+      {{- end -}}
+
+      <div id="hero-home" title="" class="flex one four-500" style="min-height: 100vh; min-width: 100%">
+        <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
+        <div class="hero__overlay">
+          <div class="full off-fourth-800 three-fourth-800 hero__content">
+            <h1>{{.Title|markdownify}}</h1>
+            <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span>
+            {{- if eq .Kind "home" -}}
+            <br/>{{ with .Site.GetPage "donate" }}<a class="button" href="{{.URL | relLangURL }}">{{i18n "donate_now" }}</a>{{end}}
+            {{ end }}
+          </div>
+          </div>
+      </div>
+
+      <div id="maincontent">
+
+        {{ .Content }}
+      </div>
+      <div class="push"></div> <!--spacer for footer-->
+    </main>
+    {{ partial "footer" .}}
+  </body>
+</html>

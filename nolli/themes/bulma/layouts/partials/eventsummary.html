@@ -1,0 +1,27 @@
+<div class="full half-900 third-1200">
+  <article class="card h-event list_event" >
+    <header>
+      <h2 class="p-name"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+
+    </header>
+    <footer class="summary_card">
+      {{ partial "eventtombstone" .}}
+      <p style="flex-grow: 1"></p>
+      <div class="button_area flex two">
+        <div class="half">
+          <a class="button" href="{{.Permalink}}">{{i18n "more_details"}}</a>
+        </div>
+        <div class="event_url half">
+            {{ if eq .Params.event_is_virtual "true" }}
+
+              {{with .Params.event_url}}<a href="{{.}}" target="_blank" class="pseudo button">Event URL</a>{{end}}
+
+
+            {{ end }}
+        </div>
+      </div>
+
+
+    </footer>
+  </article>
+</div>
