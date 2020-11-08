@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ .Language }}">
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
   <head>
-    {{ partial "head" . }}
+    {{- partial "head" . -}}
   </head>
   <body>
-    {{ partial "header" . }}
-    <main id="home">
-      {{ partial "get_header_image" . }}
-      {{ partial "hero_section" . }}
-      {{ block "main" . }}{{ end }}
-      <div class="push"></div> <!--spacer for footer-->
-    </main>
-    {{ partial "footer" .}}
+
+    {{ partial "hero" . }}
+    <div id="maincontent">
+    {{block "main" . }}{{ end }}
+  </div>
+
   </body>
+
 </html>

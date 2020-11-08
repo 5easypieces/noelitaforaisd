@@ -1,0 +1,50 @@
+{{$color_mod := partial "func/colors" .}}
+<div class="hero is-fullheight is-{{$color_mod}}">
+  {{ partial "get_hero_image" .}}
+  <img alt="{{.Scratch.Get "header_image_description"}}" class="hero-background" src="{{.Scratch.Get "header_image_url"}}">
+  <div class="hero-head">
+  {{partial "header" . }}
+  </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{.Title|markdownify}}
+      </h1>
+      <p class="subtitle has-text-white is-family-secondary is-6">
+        {{.Params.abstract}}
+        <br /><span style="display: block; padding-top: 3px"><em>
+        {{- if eq .Section "project" -}}
+          {{- with .Params.location -}}{{- . -}},&nbsp;{{- end -}}
+          {{- with .Params.project_year -}}{{- dateFormat "2006" . -}}{{- end -}}
+        {{- else -}}
+
+      {{ if and (eq .Type "post") (ne .Kind "section") }}
+
+          {{ .PublishDate.Format "January 2, 2006" }}
+
+      {{end}}
+      </em></span>
+      {{end}}
+      </p>
+    </div>
+
+
+
+
+</div>
+<div class="hero-foot">
+  <div class="container is-fluid">
+  <div class="columns">
+    <div class="column is-5">
+    <!-- Add content or other tiles -->
+    </div>
+    <div class="column is-2">
+      <a class="button is-{{$color_mod}} is-fullwidth" href="#maincontent"><span class="icon"><i class="fas fa-angle-down fa-2x"></i></span></a>
+    </div>
+    <div class="column is-5">
+      <span class="is-size-7 is-italic has-text-right is-family-secondary" style="display: block">{{- $.Scratch.Get "header_image_source" | markdownify -}}</span>
+    </div>
+  </div>
+  </div>
+</div>
+</div>

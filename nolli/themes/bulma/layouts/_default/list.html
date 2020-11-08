@@ -1,12 +1,27 @@
 {{ define "main" }}
-  <div id="maincontent" class="flex six">
-
-    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200 maincontent__content">
-      <ul>
-
-      {{ .Content }}
-
-
+{{$color_mod := partial "func/colors" .}}
+  {{with .Content}}
+    <div class="section">
+        <div class="content container">
+          {{.}}
+        </div>
     </div>
-  </div>
+  {{end}}
+  <div class="section">
+    <div class="container ">
+
+      <div class="columns is-multiline">
+          {{ range .Pages }}
+            <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+              {{partial "card" .}}
+            </div>
+          {{end}}
+        
+        </div>
+      </div>
+    </div>
+
+
+
+
 {{ end }}

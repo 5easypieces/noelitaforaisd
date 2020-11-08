@@ -51,15 +51,12 @@ env = ""
     name = "Endorsements"
     url = "/about/supporters"
     weight = 75
-  [[menu.main]]
-    name = "Get Involved"
-    url = "/volunteer"
-    weight = 125
+
   [[menu.main]]
     name = "Contact"
     url = "/about/contact"
     weight = 135
-    
+
   [[menu.secondary]]
     name = "Donate"
     url = "/donate"

@@ -1,0 +1,9 @@
+{{ $color := "primary"}}
+{{ if eq .Type "consulting" }}
+  {{ $color = "success" }}
+{{ else if eq .Type "project" }}
+  {{ $color = "danger"}}
+{{ else if eq .Type "contact"}}
+  {{ $color = "link" }}
+{{ end }}
+{{ return $color }}

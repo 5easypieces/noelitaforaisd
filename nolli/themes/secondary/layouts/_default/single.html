@@ -1,11 +1,51 @@
 {{ define "main" }}
-  <div id="maincontent" class="flex six">
+{{$color_mod := partial "func/colors_secondary" .}}
 
-    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200 maincontent__content">
-      
+<div class="container is-fluid columns is-desktop is-vcentered">
+    <div class="column is-half is-offset-one-quarter">
+      {{ if eq .Section "post"}}
+        {{ $time := time (int .Date.Unix) }}
+        {{ if lt $time.Year 2017 }}
+        <div class="section" style="padding-bottom: 0.5rem">
+          <div class="container is-centered box is-family-secondary has-background-{{$color_mod}}" style="max-width: 550px;">
+            <p class="has-text-white">{{ $.Site.Params.old_content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
 
-      {{ .Content }}
+
+
+  <section class="maincontent is-family-secondary section has-text-grey-darker">
+    <div class="container is-max-desktop content">
+      {{ with .Params.preamble }}
+        <div class="block">
+          <em>{{.|markdownify}}</em>
+        </div>
+      {{ end }}
+
+        {{.Content|safeHTML}}
+
+      {{ with .Params.project_url }}
+        <p><i>Project URL: <a href="{{ . }}" target="_blank">{{ $.Title | markdownify}}</a></i></p>
+      {{ end }}
 
     </div>
+
+
+  </section>
+  <section class="pagenav section" style="padding-top: 0.5em">
+
+    {{partial "pagenav" .}}
+
+  </section>
   </div>
+  <div class="column">
+    {{ partial "related" . }}
+
+  </div>
+</div>
+
+
+
 {{ end }}

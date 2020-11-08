@@ -1,12 +1,63 @@
 {{ define "main" }}
-  <div id="maincontent" class="flex six">
-
-    <div class="full off-sixth-800 two-third-800 off-fourth-1200 half-1200 maincontent__content">
-      <ul>
-
-      {{ .Content }}
-
-
+{{$color_mod := partial "func/colors" .}}
+  {{with .Content}}
+    <div class="section">
+        <div class="content container">
+          {{.}}
+        </div>
     </div>
-  </div>
+  {{end}}
+  <div class="section">
+    <div class="container ">
+      {{ $paginator := .Paginate .Pages }}
+      <div class="columns is-multiline">
+          {{ range first 1 $paginator.Pages }}
+            <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+              {{partial "summarycard-large" .}}
+            </div>
+          {{end}}
+          {{ range first 4 (after 4 $paginator.Pages) }}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+              {{partial "summarycard" .}}
+            </div>
+          {{end}}
+          {{ range first 1 (after 1 $paginator.Pages) }}
+            <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+              {{partial "summarycard-large" .}}
+            </div>
+          {{end}}
+          {{ range first 4 (after 8 $paginator.Pages) }}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+              {{partial "summarycard" .}}
+            </div>
+          {{end}}
+          {{ range first 1 (after 2 $paginator.Pages) }}
+            <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+              {{partial "summarycard-large" .}}
+            </div>
+          {{end}}
+          {{ range first 4 (after 12 $paginator.Pages) }}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+              {{partial "summarycard" .}}
+            </div>
+          {{end}}
+          {{ range first 1 (after 3 $paginator.Pages) }}
+            <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+              {{partial "summarycard-large" .}}
+            </div>
+          {{end}}
+          {{ range after 16 $paginator.Pages }}
+            <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+              {{partial "summarycard" .}}
+            </div>
+          {{end}}
+
+          {{ partial "pagination" .  }}
+        </div>
+      </div>
+    </div>
+
+
+
+
 {{ end }}
