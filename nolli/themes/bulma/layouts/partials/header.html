@@ -1,22 +1,35 @@
-<nav>
-  <a href="{{ .Site.Home.Permalink }}" class="brand">
-    {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
-    <img class="logo" src="{{$logo.Permalink}}" />
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="{{ .Site.Home.Permalink }}">
+      {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
+      <img src="{{$logo.Permalink}}" width="112" height="28">
+    </a>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNavigation">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="mainNavigation" class="navbar-menu">
+    <div class="navbar-start">
+      {{ range .Site.Menus.main }}
+        <a class="navbar-item" href="{{.URL | relLangURL }}">
+          {{.Name}}
+        </a>
+      {{end}}
+    </div>
 
-
-  </a>
-  <!-- responsive-->
-  <input id="bmenub" type="checkbox" class="show">
-  <label for="bmenub" class="burger pseudo button">&#9776;</label>
-  <div class="menu">
-    <span class="languagenav">{{ partial "languagenav" . }}</span>
-    <br>
-    {{ range .Site.Menus.main }}
-      <a href="{{.URL | relLangURL }}" class="{{if ne .URL "/donate" }}pseudo{{end}} button icon-picture">{{ .Name }}</a>
-    {{ end }}
-
-
-
+    <div class="navbar-end">
+      {{ range .Site.Menus.secondary }}
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary" href="{{.URL | relLangURL }}">
+              {{.Name}}
+            </a>
+          </div>
+        </div>
+      {{end}}
+    </div>
   </div>
 
 

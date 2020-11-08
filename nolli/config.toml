@@ -59,10 +59,17 @@ env = ""
     name = "Contact"
     url = "/about/contact"
     weight = 135
-  [[menu.main]]
+    
+  [[menu.secondary]]
     name = "Donate"
     url = "/donate"
     weight = 150
+  [[menu.secondary]]
+    name = "Get Involved"
+    url = "/volunteer"
+    weight = 125
+
+
 
 [languages]
   [languages.en]
