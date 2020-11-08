@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-<html lang="{{ .Language }}">
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
   <head>
-    {{ partial "head" . }}
+    {{- partial "head" . -}}
   </head>
-
   <body>
-    {{ partial "header" . }}
 
+  {{partial "header" .}}
+    <div class="hero is-fullheight-with-navbar has-background">
+      {{ partial "get_header_image" .}}
+      <img alt="{{$.Scratch.Get "header_image_description"}}" class="hero-background is-transparent" src="{{.Scratch.Get "header_image_url"}}">
+      <div class="hero-head">
 
-    <main id="home">
-
-      {{- if .Resources.GetMatch "hero" -}}
-        {{- $image := .Resources.GetMatch "hero" -}}
-        {{- $image := $image.Fill "1600x1000 q90" -}}
-
-        {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
-        {{- $.Scratch.Set "header_image_source" $image.Params.source -}}
-        {{- $.Scratch.Set "header_image_description" $image.Params.description -}}
-      {{- else -}} <!--if no hero image, grab the first image in the directory and use that -->
-        {{- range .Resources.ByType "image" | first 1 -}}
-          {{- $image := .Fill "1000x1000 q90" -}}
-          {{- $image = $image.Filter (images.GaussianBlur 2) -}}
-          {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
-        {{- end -}}
-      {{- end -}}
-
-      <div id="hero-home" title="" class="flex one four-500" style="min-height: 100vh; min-width: 100%">
-        <img src="{{.Scratch.Get "header_image_url" }}" alt="{{.Scratch.Get "header_image_description"}}">
-        <div class="hero__overlay">
-          <div class="full off-fourth-800 three-fourth-800 hero__content">
-            <h1>{{.Title|markdownify}}</h1>
-            <span class="abstract">{{with .Params.abstract}}{{ . |markdownify}}{{end}}</span>
-            {{- if eq .Kind "home" -}}
-            <br/>{{ with .Site.GetPage "donate" }}<a class="button" href="{{.URL | relLangURL }}">{{i18n "donate_now" }}</a>{{end}}
-            {{ end }}
-          </div>
-          </div>
       </div>
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            {{.Title}}
+          </h1>
+          <p class="subtitle is-family-secondary is-6 pt-2"  style="max-width: 550px">
+            {{.Params.abstract}}
+            <br />
+            <a href="/contact" class="button mt-3 is-family-primary is-warning" style="letter-spacing: -0.75px;">Get In Touch</a>
 
-      <div id="maincontent">
 
-        {{ .Content }}
+          </p>
+        </div>
       </div>
-      <div class="push"></div> <!--spacer for footer-->
-    </main>
-    {{ partial "footer" .}}
-  </body>
+      <div class="hero-foot">
+        <div class="container is-fluid">
+        <div class="columns">
+          <div class="column is-6">
+          <!-- Add content or other tiles -->
+          </div>
+
+          <div class="column is-6">
+            <span class="is-size-7 is-italic has-text-right is-family-secondary" style="display: block">{{- $.Scratch.Get "header_image_source" | markdownify -}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
