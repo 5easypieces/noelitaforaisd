@@ -23,7 +23,10 @@
           <em>{{.|markdownify}}</em>
         </div>
       {{ end }}
-
+<div class="main_image" style="padding: 20px; float: left">
+  {{ partial "get_hero_image" .}}
+  <img alt="{{.Scratch.Get "header_image_description"}}" class="" src="{{.Scratch.Get "header_image_url"}}">
+</div>
         {{.Content|safeHTML}}
 
       {{ with .Params.project_url }}

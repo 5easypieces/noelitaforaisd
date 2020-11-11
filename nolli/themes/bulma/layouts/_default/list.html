@@ -1,8 +1,13 @@
 {{ define "main" }}
+{{ partial "get_hero_image" .}}
 {{$color_mod := partial "func/colors" .}}
   {{with .Content}}
     <div class="section">
         <div class="content container">
+          <div class="main_image" style="padding: 20px; float: left">
+
+            <img alt="{{$.Scratch.Get "header_image_description"}}" class="" src="{{$.Scratch.Get "header_image_url"}}">
+          </div>
           {{.}}
         </div>
     </div>
@@ -16,7 +21,7 @@
               {{partial "card" .}}
             </div>
           {{end}}
-        
+
         </div>
       </div>
     </div>

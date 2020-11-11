@@ -1,9 +1,10 @@
 {{$color_mod := partial "func/colors" .}}
-<div class="hero is-fullheight is-{{$color_mod}}">
-  {{ partial "get_hero_image" .}}
-  <img alt="{{.Scratch.Get "header_image_description"}}" class="hero-background" src="{{.Scratch.Get "header_image_url"}}">
-  <div class="hero-head">
   {{partial "header" . }}
+<div class="hero is-medium is-bold is-primary">
+
+
+  <div class="hero-head">
+
   </div>
   <div class="hero-body">
     <div class="container">
@@ -12,22 +13,10 @@
       </h1>
       <p class="subtitle has-text-white is-family-secondary is-6">
         {{.Params.abstract}}
-        <br /><span style="display: block; padding-top: 3px"><em>
-        {{- if eq .Section "project" -}}
-          {{- with .Params.location -}}{{- . -}},&nbsp;{{- end -}}
-          {{- with .Params.project_year -}}{{- dateFormat "2006" . -}}{{- end -}}
-        {{- else -}}
-
-      {{ if and (eq .Type "post") (ne .Kind "section") }}
-
-          {{ .PublishDate.Format "January 2, 2006" }}
-
-      {{end}}
-      </em></span>
-      {{end}}
+        <br />
       </p>
-    </div>
 
+    </div>
 
 
 
