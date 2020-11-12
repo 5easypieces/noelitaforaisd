@@ -1,16 +1,18 @@
-<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+<nav class="navbar is-info main-nav" role="navigation" aria-label="main navigation">
+  <input type="checkbox" id="toggler" role="button" class="toggler" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" />
   <div class="navbar-brand">
     <a class="navbar-item" href="{{ .Site.Home.Permalink }}">
       {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
-      <img src="{{$logo.Permalink}}" width="112" height="28">
+      <img src="{{$logo.Permalink}}" width="112" height="112">
     </a>
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNavigation">
+    <label for="toggler" class="navbar-burger burger">
+
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
-    </a>
+    </label>
   </div>
-  <div id="mainNavigation" class="navbar-menu">
+  <div id="navMenubd-example" class="navbar-menu">
     <div class="navbar-start">
       {{ range .Site.Menus.main }}
         <a class="navbar-item" href="{{.URL | relLangURL }}">
@@ -20,6 +22,17 @@
     </div>
 
     <div class="navbar-end">
+      <div class="control">
+  <label class="radio">
+    <input type="radio" name="answer">
+    Yes
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    No
+  </label>
+</div>
+
       {{ range .Site.Menus.secondary }}
         <div class="navbar-item">
           <div class="buttons">

@@ -52,7 +52,52 @@ $fullhd-enabled: true;
 @import "../../../../node_modules/bulma/bulma.sass";
 
 
+//CSS version of styling you can find here: https://gist.github.com/NikiProToss/20ab8d1fac5f8634c6aa214a8cf6b721
 
+//Responsive mixins doesn't work here for some reason. Should be "@include desktop {}" or "+desktop" in scss/sass
+
+//We don't want menu to be displayed on mobile by default
+@media screen and (max-width: 1024px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+//We don't need checkbox to be displayed in order for it to work
+.toggler {
+  display: none;
+}
+//Below are all the functionalities:
+.navbar .toggler:checked {
+  //Hamburger changes to X when toggler is checked
+  & + .navbar-brand .burger {
+    & span:nth-child(1) {
+      -webkit-transform: translateY(5px) rotate(45deg);
+      transform: translateY(5px) rotate(45deg);
+    }
+    & span:nth-child(2) {
+      opacity: 0;
+    }
+    & span:nth-child(3){
+      -webkit-transform: translateY(-5px) rotate(-45deg);
+      transform: translateY(-5px) rotate(-45deg);
+    }
+  }
+  //Displays menu when toggler is checked only on mobile/tablet
+  & ~ .navbar-menu {
+    @media screen and (max-width: 1024px) {
+      display: block;
+    }
+  }
+}
+
+.navbar-brand {
+  min-height: 6.25rem;
+
+}
+
+.navbar-item img {
+  max-height: 100%
+}
 
 
 .hero.has-background {
