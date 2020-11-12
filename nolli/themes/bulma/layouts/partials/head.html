@@ -23,8 +23,7 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 <script src="https://kit.fontawesome.com/8cccdd7106.js" crossorigin="anonymous"></script>
 
-{{ $js := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint}}
-<script type="text/text/javascript" src="{{$js.Permalink}}"></script>
+
 
 {{- with .OutputFormats.Get "RSS" }}
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
