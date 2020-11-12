@@ -1,5 +1,52 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,500;1,300&family=Patua+One&display=swap');
 
+
+
+
+$pink: #7f152e;
+$slate: #626d71;
+$beige-light: #dfd9b9;
+$beige-lighter: #E9E6DF;
+$green: #acbd78;
+
+$green-light: #cfd6c5;
+$green-dark: #404b35;
+$blue: #0c81bb;
+$blue-light: #F9E8D4;
+$blue-dark: #4F2C33;
+$orange: #f0810f;
+$orange-light: #e8dbcb;
+$orange-dark: #5c442f;
+$purple: #8e7ca0;
+$purple-light: #d9d4d8;
+$purple-dark: #353239;
+$yellow: #eeb226;
+
+
+// Update Bulma's global variables
+$family-secondary: "Patua One", serif;
+$family-primary: "Merriweather", sans-serif;
+
+
+$primary: $yellow;
+$primary-light: $green-light;
+$primary-dark: $green-dark;
+$info: $blue;
+$info-light: $blue-light;
+$info-dark: $blue-dark;
+$danger: $purple;
+$danger-light: $purple-light;
+$danger-dark: $purple-dark;
+$warning: $orange;
+$success: $green;
+
+
+
+
+$link: $pink;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
 
 
 @import "../../../../node_modules/bulma/bulma.sass";
