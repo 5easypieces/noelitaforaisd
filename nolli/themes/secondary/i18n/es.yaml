@@ -22,3 +22,7 @@
   translation: "Enviar"
 - id: accept_storage
   translation: "Acepto que los datos enviados se recopilen y almacenen."
+- id: next
+  translation: "Siguiente"
+- id: previous
+  translation: "Previo"

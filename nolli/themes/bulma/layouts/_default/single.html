@@ -15,10 +15,10 @@
           <div class="buttons has-addons is-right" role="navigation" aria-label="pagination">
 
               {{with .PrevInSection}}
-                <a class="button" href="{{.Permalink}}">Previous: {{.Title}}</a>
+                <a class="button" href="{{.Permalink}}">{{ i18n "previous" }}: {{.Title}}</a>
               {{end}}
               {{with .NextInSection}}
-                <a class="button" href="{{.Permalink}}">Next: {{.Title}}</a>
+                <a class="button" href="{{.Permalink}}">{{ i18n "next" }}: {{.Title}}</a>
               {{end}}
             </div>
           {{end}}

@@ -22,3 +22,7 @@
   translation: "Submit"
 - id: accept_storage
   translation: "I agree that my submitted data is being collected and stored."
+- id: next
+  translation: "Next"
+- id: previous
+  translation: "Previous"
