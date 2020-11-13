@@ -3,7 +3,7 @@
   <div class="navbar-brand">
     <a class="navbar-item" href="{{ .Site.Home.Permalink }}">
       {{ $logo := resources.Get "images/noelita_logo_notag_bw.png" }}
-      <img src="{{$logo.Permalink}}" width="112" height="112">
+      <img src="{{$logo.Permalink}}" width="200" height="200">
     </a>
     <label for="toggler" class="navbar-burger burger">
 
@@ -23,7 +23,7 @@
 
 
     <div class="navbar-end">
-      
+
 
 
       {{ with .Site.Menus.secondary }}
