@@ -6,6 +6,14 @@
   <body>
 
     {{ partial "hero" . }}
+    {{ if .IsTranslated }}
+    <div class="buttons has-addons">
+      {{ $.Scratch.Set "language" .Language }}
+      {{ range .AllTranslations }}
+        <a href="{{ .Permalink }}" class="button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-text {{end}}" style="border-radius: 0px;">{{ .Language }}</a>
+      {{ end}}
+    </div>
+    {{ end }}
     <div id="maincontent">
     {{block "main" . }}{{ end }}
   </div>

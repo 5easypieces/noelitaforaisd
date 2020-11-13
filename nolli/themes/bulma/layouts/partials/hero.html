@@ -18,18 +18,13 @@
       <p class="subtitle has-text-white is-family-secondary is-6">
         {{.Params.abstract}}
       </p>
-      
+
 
     </div>
   </div>
   <div class="hero-foot">
 
-    {{ if .IsTranslated }}
-      {{ $.Scratch.Set "language" .Language }}
-      {{ range .AllTranslations }}
-        <a href="{{ .Permalink }}" class="is-align-self-flex-end button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-primary {{else}} is-text has-text-white{{end}}">{{ .Language }}</a>
-      {{ end}}
-    {{ end }}
+    
 
   </div>
 </div>

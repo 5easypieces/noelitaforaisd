@@ -7,17 +7,19 @@
 
   {{partial "header" .}}
     <div class="hero is-fullheight-with-navbar has-background">
+
       {{ partial "get_header_image" .}}
       <img alt="{{$.Scratch.Get "header_image_description"}}" class="hero-background is-transparent" src="{{.Scratch.Get "header_image_url"}}">
       <div class="hero-head">
+
         {{ if .IsTranslated }}
+        <div class="buttons has-addons">
           {{ $.Scratch.Set "language" .Language }}
           {{ range .AllTranslations }}
-            <a href="{{ .Permalink }}" class="is-align-self-flex-end button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-light is-outlined {{end}}">{{ .Language }}</a>
+            <a href="{{ .Permalink }}" class="button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-text has-text-white {{end}}">{{ .Language }}</a>
           {{ end}}
+        </div>
         {{ end }}
-
-
       </div>
       <div class="hero-body">
         <div class="container">
@@ -26,26 +28,12 @@
           </h1>
           <p class="subtitle is-family-secondary has-text-white is-6 pt-2"  style="max-width: 550px">
             {{.Params.abstract}}
-            <br />
-            <a href="/contact" class="button mt-3 is-family-primary is-warning" style="letter-spacing: -0.75px;">Get In Touch</a>
 
 
           </p>
         </div>
       </div>
-      <div class="hero-foot">
-        <div class="container is-fluid">
-        <div class="columns">
-          <div class="column is-6">
-          <!-- Add content or other tiles -->
-          </div>
 
-          <div class="column is-6">
-            <span class="is-size-7 is-italic has-text-right is-family-secondary" style="display: block">{{- $.Scratch.Get "header_image_source" | markdownify -}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </body>
 </html>
