@@ -7,7 +7,7 @@
 
     {{ partial "hero" . }}
     {{ if .IsTranslated }}
-    <div class="buttons has-addons">
+    <div class="buttons has-addons" style="position: absolute; right: 0">
       {{ $.Scratch.Set "language" .Language }}
       {{ range .AllTranslations }}
         <a href="{{ .Permalink }}" class="button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-text {{end}}" style="border-radius: 0px;">{{ .Language }}</a>
