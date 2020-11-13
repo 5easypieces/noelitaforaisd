@@ -1,21 +1,43 @@
 {{ define "main" }}
 {{$color_mod := partial "func/colors_secondary" .}}
-
+{{ partial "get_hero_image" .}}
 <div class="section">
   <div class="container">
-      <div class="columns">
-          <div class="column is-two-fifths">
-            <img style="max-height: 300px" alt="{{$.Scratch.Get "header_image_description"}}" class="" src="{{$.Scratch.Get "header_image_url"}}">
-          </div>
-          <div class="column">
-            <div class="section content">
-              {{.Content|markdownify}}
-            </div>
-
-          </div>
-        </div>
+    <div class="columns">
+      <div class="column is-two-fifths">
+        <img style="max-height: 300px" alt="{{$.Scratch.Get "header_image_description"}}" class="" src="{{$.Scratch.Get "header_image_url"}}">
       </div>
+      <div class="column">
+        <div class="section content">
+          {{.Content|markdownify}}
+          {{ if eq .Section "platform" }}
+          {{ if (or .NextInSection .PrevInSection)}}
+          <div class="buttons has-addons is-right" role="navigation" aria-label="pagination">
+
+              {{with .PrevInSection}}
+                <a class="button" href="{{.Permalink}}">Previous: {{.Title}}</a>
+              {{end}}
+              {{with .NextInSection}}
+                <a class="button" href="{{.Permalink}}">Next: {{.Title}}</a>
+              {{end}}
+            </div>
+          {{end}}
+          {{end}}
+        </div>
+
+
+
+
+      </div>
+
     </div>
+
+  </div>
+</div>
+<div class="section">
+
+
+</div>
 
 
 

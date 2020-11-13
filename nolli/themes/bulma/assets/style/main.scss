@@ -48,6 +48,9 @@ $link: $pink;
 $widescreen-enabled: true;
 $fullhd-enabled: true;
 
+$box-shadow: 	0 1px 3px rgba(0,0,0,0.12);
+
+$card-shadow: 0 1px 3px rgba(0,0,0,0.12);
 
 @import "../../../../node_modules/bulma/bulma.sass";
 
@@ -89,6 +92,8 @@ $fullhd-enabled: true;
     }
   }
 }
+
+
 
 .navbar-brand {
   min-height: 6.25rem;

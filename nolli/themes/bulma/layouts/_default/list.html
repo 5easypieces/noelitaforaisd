@@ -11,8 +11,9 @@
             <div class="section content">
               {{.Content|markdownify}}
             </div>
-            <div class="section">
-              <div class="columns is-multiline">
+            {{ if eq .Section "platform" }}
+              <div class="section">
+                <div class="columns is-multiline">
                   {{ range .Pages }}
                     <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
                       {{partial "card" .}}
@@ -21,6 +22,7 @@
 
                 </div>
               </div>
+              {{end}}
             </div>
           </div>
         </div>

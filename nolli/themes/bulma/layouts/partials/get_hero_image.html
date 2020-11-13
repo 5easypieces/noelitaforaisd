@@ -1,18 +1,15 @@
 
   {{ if .Resources.Match "hero" }}
     {{- $image := .Resources.GetMatch "hero" -}}
-  
+
 
     {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
     {{- $.Scratch.Set "header_image_source" $image.Params.source -}}
     {{- $.Scratch.Set "header_image_description" $image.Params.description -}}
   {{- else -}} <!--if no hero image, grab the first image in the directory and use that -->
-    {{- range .Resources.ByType "image" | first 1 -}}
+    {{ $image := resources.Get "images/noelita_logo.png" }}
+    {{- $.Scratch.Set "header_image_url" $image.Permalink -}}
+    {{- $.Scratch.Set "header_image_source" "test-source" -}}
+    {{- $.Scratch.Set "header_image_description" "Logo for Noelita for AISD" -}}
 
-      {{- $image := .Fill "1000x1000 q90" -}}
-      {{- $image := $image.Filter (images.Grayscale) (images.Gamma 0.4) }}
-      {{- $.Scratch.Set "header_image_url" $image.RelPermalink -}}
-      {{- $.Scratch.Set "header_image_source" "test-source" -}}
-      {{- $.Scratch.Set "header_image_description" "test-description" -}}
-  {{- end -}}
 {{- end -}}
