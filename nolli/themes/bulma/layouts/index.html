@@ -10,6 +10,13 @@
       {{ partial "get_header_image" .}}
       <img alt="{{$.Scratch.Get "header_image_description"}}" class="hero-background is-transparent" src="{{.Scratch.Get "header_image_url"}}">
       <div class="hero-head">
+        {{ if .IsTranslated }}
+          {{ $.Scratch.Set "language" .Language }}
+          {{ range .AllTranslations }}
+            <a href="{{ .Permalink }}" class="is-align-self-flex-end button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-light is-outlined {{end}}">{{ .Language }}</a>
+          {{ end}}
+        {{ end }}
+
 
       </div>
       <div class="hero-body">
