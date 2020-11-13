@@ -1,18 +1,80 @@
-<form name="main_contact" action="/pages/submit/" method="POST" data-netlify="true">
-  <fieldset class="flex two">
-    <label class="full half-900"><input type="text" placeholder="{{ i18n "submitter_name" }}" name="submitter_name"></label>
-    <label class="full half-900"><input type="email" placeholder="{{ i18n "submitter_email" }}"  name="submitter_email"></label>
-  </fieldset>
-  <fieldset class="flex">
-    <label><input type="text" placeholder="{{ i18n "subject" }}" name="subject"></label>
-  </fieldset>
-  <textarea name="submitter_message" placeholder="{{ i18n "message" }}"></textarea>
-  <fieldset class="flex two">
-    <label class="full half-900">
+<div class="container">
+  <form name="main_contact" action="/contact/submit/" method="POST" data-netlify="true">
+  <div class="field is-horizontal" style="letter-spacing: -0.75px;">
+    <div class="field-label is-normal">
+      <label class="label has-text-white has-text-weight-normal is-family-primary">From</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <p class="control is-expanded has-icons-left">
+          <input class="input" type="text" placeholder="{{ i18n "submitter_name" }}" name="submitter_name" style="letter-spacing: -0.75px;">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </p>
+      </div>
+      <div class="field">
+        <p class="control is-expanded has-icons-left">
+          <input class="input is-success" type="email" placeholder="{{ i18n "submitter_email" }}" name="submitter_email">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="field is-horizontal">
+    <div class="field-label is-normal">
+      <label class="label has-text-white has-text-weight-normal is-family-primary">Subject</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <div class="control">
+          <input class="input" type="text" name="submitter_subject" placeholder="{{ i18n "subject" }}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="label has-text-white has-text-weight-normal is-family-primary">{{ i18n "message" }}</label>
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <div class="control">
+        <textarea class="textarea" placeholder="{{ i18n "message" }}" name="submitter_message"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="field is-horizontal">
+  <div class="field-label">
+
+
+    <!-- Left empty for spacing -->
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <div class="control">
+        <button class="button is-info" type="submit">
+          {{ i18n "submit"}}
+        </button>
+      </div>
+    </div>
+    <label class="checkbox">
       <input type="checkbox" checked>
-      <span class="checkable">{{ i18n "accept_storage"}}</span>
+      {{ i18n "accept_storage"}}
     </label>
-  <button type="submit" class="button" class="full half-900">{{ i18n "submit"}}</button>
-  </fieldset>
+  </div>
+</div>
+
+
+
+
+
+
+
 
 </form>
+</div>
