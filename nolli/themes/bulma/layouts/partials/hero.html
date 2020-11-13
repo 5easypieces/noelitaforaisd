@@ -1,27 +1,32 @@
 {{$color_mod := partial "func/colors" .}}
   {{partial "header" . }}
 <div class="hero is-medium is-primary">
-
-
   <div class="hero-head">
+
+
+    {{ if .IsTranslated }}
+      {{ $.Scratch.Set "language" .Language }}
+      {{ range .AllTranslations }}
+        <a href="{{ .Permalink }}" class="is-align-self-flex-end button is-small {{ if eq ($.Scratch.Get "language") .Language }} is-info {{else}} is-text{{end}}">{{ .Language }}</a>
+      {{ end}}
+    {{ end }}
+
+
 
   </div>
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
+      <h1 class="title has-text-info-dark">
         {{.Title|markdownify}}
       </h1>
       <p class="subtitle has-text-white is-family-secondary is-6">
         {{.Params.abstract}}
-        <br />
       </p>
-
     </div>
+  </div>
+  <div class="hero-foot">
 
 
 
-</div>
-<div class="hero-foot">
-
-</div>
+  </div>
 </div>

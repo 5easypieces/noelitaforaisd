@@ -72,9 +72,11 @@ env = ""
   [languages.en]
   	languageName = "English"
   	weight = 1
+    shortName = "en"
   [languages.es]
   	languageName = "Español"
   	weight = 2
+    shortName = "es"
     title = "Noelita Para AISD"
     [[languages.es.menu.main]]
       name = "Biografía"
@@ -88,7 +90,7 @@ env = ""
       name = "Endosos"
       url = "/about/supporters"
       weight = 75
-    [[languages.es.menu.main]]
+    [[languages.es.menu.secondary]]
       name = "Involúcrate"
       url = "/volunteer"
       weight = 100
@@ -96,7 +98,7 @@ env = ""
         name = "Contactarnos"
         url = "/about/contact"
         weight = 135
-    [[languages.es.menu.main]]
+    [[languages.es.menu.secondary]]
       name = "Donar"
       url = "/donate"
       weight = 150

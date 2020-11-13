@@ -21,26 +21,30 @@
       {{end}}
     </div>
 
-    <div class="navbar-end">
-      <div class="control">
-  <label class="radio">
-    <input type="radio" name="answer">
-    Yes
-  </label>
-  <label class="radio">
-    <input type="radio" name="answer">
-    No
-  </label>
-</div>
 
-      {{ range .Site.Menus.secondary }}
+    <div class="navbar-end">
+      
+
+
+      {{ with .Site.Menus.secondary }}
+        {{range first 1 . }}
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary" href="{{.URL | relLangURL }}">
+            <a class="button is-light is-outlined" href="{{.URL | relLangURL }}">
               {{.Name}}
             </a>
           </div>
         </div>
+      {{end}}
+      {{range after 1 . }}
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary" href="{{.URL | relLangURL }}">
+            {{.Name}}
+          </a>
+        </div>
+      </div>
+    {{end}}
       {{end}}
     </div>
   </div>
