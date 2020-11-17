@@ -27,7 +27,7 @@ resources:
 ## Noelita Lugo is supported by:
 
 * Representative Gina Hinojosa
-* County Commissioner Brigid Shae
+* County Commissioner Brigid Shea
 * City Councilwoman Kathie Tovo
 * Former AISD Trustee Paul Saldaña
 * Chapter President of NAACP Austin Nelson Linder
