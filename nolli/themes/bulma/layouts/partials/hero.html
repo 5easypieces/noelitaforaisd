@@ -14,9 +14,12 @@
 
       <h1 class="title has-text-white">
         {{.Title|markdownify}}
+
       </h1>
       <p class="subtitle has-text-white is-family-secondary is-6">
-
+        {{if and (eq .Section "events") (eq .Kind "page")}}
+          This is a single event
+        {{end}}
       </p>
 
 
