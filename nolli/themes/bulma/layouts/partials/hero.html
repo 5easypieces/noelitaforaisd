@@ -16,11 +16,16 @@
         {{.Title|markdownify}}
 
       </h1>
+      {{if and (eq .Section "events") (eq .Kind "page")}}
       <p class="subtitle has-text-white is-family-secondary is-6">
-        {{if and (eq .Section "events") (eq .Kind "page")}}
-          This is a single event
-        {{end}}
+
+          {{ $startdate := time .Params.event_start }}
+          {{dateFormat "January 02, 2006 - 3:04 PM" $startdate }}
+
+
+
       </p>
+      {{end}}
 
 
     </div>
