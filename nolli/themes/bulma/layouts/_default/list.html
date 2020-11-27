@@ -22,6 +22,16 @@
 
                 </div>
               </div>
+              {{ else if eq .Section "events" }}
+                <div class="section">
+                  <div class="columns is-multiline">
+                    {{ range sort (.Data.Pages.ByParam "event_start_unix") ".Params.event_start_unix" "asc" }} <!--sort events in ascending order by start date-->
+                      <div class="column is-half-tablet is-two-thirds-desktop is-half-widescreen">
+                        {{partial "eventsummary" .}}
+                      </div>
+                    {{end}}
+                  </div>
+                </div>
               {{end}}
             </div>
           </div>

@@ -1,11 +1,11 @@
-<div class="card has-background-light" style="min-height: 100%">
+<div class="card has-background-light is-flex is-flex-direction-column" style="min-height: 100%">
   <header class="card-header has-background-primary">
     <p class="card-header-title">
       {{.Title}}
     </p>
 
   </header>
-  <div class="card-content">
+  <div class="card-content is-flex-grow-1">
     <div class="content">
       {{.Params.abstract}}
       {{ partial "eventtombstone" .}}
