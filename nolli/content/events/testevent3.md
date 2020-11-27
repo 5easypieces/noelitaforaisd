@@ -2,8 +2,8 @@
 title = "The third test event"
 abstract = "A description of the first test event"
 date = "2020-07-10T19:00:00-05:00"
-event_start = "2025-07-23T19:00:00-05:00"
-event_end = "2025-07-23T23:00:00-05:00"
+event_start = "2025-07-23T19:00:00"
+event_end = "2025-07-23T23:00:00"
 event_start_unix = 1595638800
 status = "scheduled"
 tagline = ""

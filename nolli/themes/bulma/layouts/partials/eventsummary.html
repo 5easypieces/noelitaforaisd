@@ -1,27 +1,19 @@
-<div class="full half-900 third-1200">
-  <article class="card h-event list_event" >
-    <header>
-      <h2 class="p-name"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+<div class="card has-background-light" style="min-height: 100%">
+  <header class="card-header has-background-primary">
+    <p class="card-header-title">
+      {{.Title}}
+    </p>
 
-    </header>
-    <footer class="summary_card">
+  </header>
+  <div class="card-content">
+    <div class="content">
+      {{.Params.abstract}}
       {{ partial "eventtombstone" .}}
-      <p style="flex-grow: 1"></p>
-      <div class="button_area flex two">
-        <div class="half">
-          <a class="button" href="{{.Permalink}}">{{i18n "more_details"}}</a>
-        </div>
-        <div class="event_url half">
-            {{ if eq .Params.event_is_virtual "true" }}
 
-              {{with .Params.event_url}}<a href="{{.}}" target="_blank" class="pseudo button">Event URL</a>{{end}}
+    </div>
+  </div>
+  <footer class="card-footer">
 
-
-            {{ end }}
-        </div>
-      </div>
-
-
-    </footer>
-  </article>
+    <a href="{{.Permalink}}" class="card-footer-item">{{ i18n "more_details" }}</a>
+  </footer>
 </div>
