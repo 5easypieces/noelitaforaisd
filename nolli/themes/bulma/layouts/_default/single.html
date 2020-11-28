@@ -8,8 +8,16 @@
         <img style="max-height: 300px" alt="{{$.Scratch.Get "header_image_description"}}" class="" src="{{$.Scratch.Get "header_image_url"}}">
       </div>
       <div class="column">
+        {{if eq .Section "events" }}
+          <div class="section content" style="padding-top: 0; padding-bottom: 0">
+            {{partial "eventtombstone" .}}
+          </div>
+
+        {{end }}
         <div class="section content">
           {{.Content|markdownify}}
+        </div>
+
           {{ if eq .Section "platform" }}
           {{ if (or .NextInSection .PrevInSection)}}
           <div class="buttons has-addons is-right" role="navigation" aria-label="pagination">
