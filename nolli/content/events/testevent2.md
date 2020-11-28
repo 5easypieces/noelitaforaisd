@@ -3,7 +3,7 @@ title = "Get Out the Vote - Go Team Lugo!"
 abstract = "Let's give one final push for a weekend of action. Help us reach folks who just need a little nudge to get out there and vote."
 date = "2020-07-10T19:00:00"
 event_start = "2020-10-31T15:00:00"
-event_end = "2020-10-31T18:00:00"
+
 event_start_unix = 1595638800
 status = "scheduled"
 tagline = ""

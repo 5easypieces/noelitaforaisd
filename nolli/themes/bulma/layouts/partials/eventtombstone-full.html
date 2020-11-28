@@ -1,0 +1,20 @@
+{{ $startdate := time .Params.event_start }}
+{{ if .Params.event_end }}
+  {{ $enddate := time .Params.event_end }}
+{{ end }}
+<div class="pb-2">
+  <h2 class="title is-3">
+    {{.Title}}
+  </h2>
+<div class="event-date is-size-4" itemprop="startDate" content="{{dateFormat "2006-01-02T15:04" $startdate}}">
+  {{dateFormat "January 02, 2006" $startdate }}
+
+
+</div>
+<time class="doorTime is-size-5" datetime="{{$startdate}}">{{ dateFormat "3:04 PM" $startdate }}
+  {{if .Params.event_end }}
+    {{ $enddate := time .Params.event_end }}
+    - {{dateFormat "3:04 PM" $enddate }}
+  {{end}} 
+</time><br />
+</div>

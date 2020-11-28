@@ -8,13 +8,10 @@
         <img style="max-height: 300px" alt="{{$.Scratch.Get "header_image_description"}}" class="" src="{{$.Scratch.Get "header_image_url"}}">
       </div>
       <div class="column">
-        {{if eq .Section "events" }}
-          <div class="section content" style="padding-top: 0; padding-bottom: 0">
-            {{partial "eventtombstone" .}}
-          </div>
-
-        {{end }}
         <div class="section content">
+          {{if eq .Section "events" }}
+            {{partial "eventtombstone-full" .}}
+          {{end }}
           {{.Content|markdownify}}
         </div>
 
