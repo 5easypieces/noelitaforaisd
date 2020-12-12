@@ -15,8 +15,13 @@
     </div>
     {{ end }}
     <div id="maincontent">
-    {{block "main" . }}{{ end }}
-  </div>
+      {{block "main" . }}{{ end }}
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>{{ i18n "legalese" }}</p>
+      </div>
+    </footer>
 
   </body>
 
