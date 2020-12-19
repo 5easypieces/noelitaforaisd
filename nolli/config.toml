@@ -1,104 +1,78 @@
-baseURL = "https://noelitaforaisd.com"
-languageCode = "en-us"
-title = "Noelita for AISD"
-theme = "bulma"
 author = "Koven J. Smith"
-summaryLength = 20
-logo = "/noelita_logo.png"
+baseURL = "https://noelitaforaisd.com"
 env = ""
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-
-
+languageCode = "en-us"
+logo = "/noelita_logo.png"
+summaryLength = 20
+theme = "bulma"
+title = "Noelita for AISD"
+[languages.en]
+languageName = "English"
+shortName = "en"
+weight = 1
+[languages.es]
+languageName = "Español"
+shortName = "es"
+title = "Noelita Para AISD"
+weight = 2
+[[languages.es.menu.main]]
+name = "Biografía"
+url = "/about"
+weight = 25
+[[languages.es.menu.main]]
+name = "Plataforma"
+url = "/platform"
+weight = 50
+[[languages.es.menu.main]]
+name = "Endosos"
+url = "/about/supporters"
+weight = 75
+[[languages.es.menu.main]]
+name = "Contactarnos"
+url = "/about/contact"
+weight = 135
+[[languages.es.menu.secondary]]
+name = "Involúcrate"
+url = "/volunteer"
+weight = 100
+[[languages.es.menu.secondary]]
+name = "Donar"
+url = "/donate"
+weight = 150
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.main]]
+name = "Contact"
+url = "/about/contact"
+weight = 4
+[[menu.main]]
+name = "Endorsements"
+url = "/about/supporters"
+weight = 3
+[[menu.main]]
+name = "Platform"
+url = "/platform"
+weight = 2
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+[[menu.secondary]]
+name = "Get Involved"
+url = "/volunteer"
+weight = 1
 [outputs]
-  home = ["HTML", "RSS"]
-
+home = ["HTML", "RSS"]
 [params]
-
-
-    primary_color = "#0c81bb"
-    accent_color = "#eeb226"
-    accent2_color = "#6d2e46"
-    darkgrey_color = "#062728"
-    lightgrey_color = "#bfbfbf"
-    white_color = "#f0f1f5"
-    forestryid = "nfkkwqzqof4"
-    analyticsid = "UA-177902406-1"
-    env = "production"
-
+accent2_color = "#6d2e46"
+accent_color = "#eeb226"
+analyticsid = "UA-177902406-1"
+darkgrey_color = "#062728"
+env = "production"
+forestryid = "nfkkwqzqof4"
+lightgrey_color = "#bfbfbf"
+primary_color = "#0c81bb"
+white_color = "#f0f1f5"
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-
-
-
-
-  # Main menu
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 25
-  [[menu.main]]
-    name = "Platform"
-    url = "/platform"
-    weight = 50
-  [[menu.main]]
-    name = "Endorsements"
-    url = "/about/supporters"
-    weight = 75
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/about/contact"
-    weight = 135
-
-  [[menu.secondary]]
-    name = "Donate"
-    url = "/donate"
-    weight = 150
-  [[menu.secondary]]
-    name = "Get Involved"
-    url = "/volunteer"
-    weight = 125
-
-
-
-[languages]
-  [languages.en]
-  	languageName = "English"
-  	weight = 1
-    shortName = "en"
-  [languages.es]
-  	languageName = "Español"
-  	weight = 2
-    shortName = "es"
-    title = "Noelita Para AISD"
-    [[languages.es.menu.main]]
-      name = "Biografía"
-      url = "/about"
-      weight = 25
-    [[languages.es.menu.main]]
-      name = "Plataforma"
-      url = "/platform"
-      weight = 50
-    [[languages.es.menu.main]]
-      name = "Endosos"
-      url = "/about/supporters"
-      weight = 75
-    [[languages.es.menu.secondary]]
-      name = "Involúcrate"
-      url = "/volunteer"
-      weight = 100
-    [[languages.es.menu.main]]
-        name = "Contactarnos"
-        url = "/about/contact"
-        weight = 135
-    [[languages.es.menu.secondary]]
-      name = "Donar"
-      url = "/donate"
-      weight = 150
+category = "categories"
+tag = "tags"
