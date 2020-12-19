@@ -1,18 +1,16 @@
 ---
 title: Meet Noelita.
-abstract: "Every student deserves the chance to succeed."
-draft: false
+abstract: Every student deserves the chance to succeed.
 resources:
-- src: "_MG_5046-Edit.jpg"
+- src: _MG_5046-Edit.jpg
   name: hero
   params:
     source: ''
-    description: 'Black-and-white mage of Noelita Lugo. She is facing the viewer while leaning against a wall.'
+    description: Black-and-white mage of Noelita Lugo. She is facing the viewer while
+      leaning against a wall.
+
 ---
-
 Coming from a working-class immigrant family that is both indigenous and Latino (Otomi and Mexican), Noelita was encouraged to excel in school and was the first in her family to graduate from college. With a master’s degree in social work from the University of Texas, Noelita has devoted her 20-year career working in state public policy focused on family-centered child support, workforce development partnership programs and young parent and fatherhood programs.
-
-
 
 ## A mom & advocate
 
@@ -25,8 +23,13 @@ While the eventual outcome was disappointing, as AISD moved forward over the obj
 ## A leader for the future
 
 Noelita envisions an AISD that ensures:
+
 * All students receive a rich educational experience, beyond one that is centered around test preparation and scores, with the goal of molding lifelong learners who can reach their full potential
 * Parents and caregivers are fully invited and welcomed to the table, where they are respected and empowered to be active partners in their child’s success.
 * And campus leaders and educators are respected and consulted as the professionals they are when determining effective approaches to teaching, learning and accountability.
 
 Noelita is a co-founder of Save Austin Schools 2019 and has joined other coalitions such as Reframe the Game, East Austin Coalition for Quality Education, AISD Equity Coalition, HABLA, Dual Language/Lingue Dual Austin, Coalition for Special Education Equity in AISD, and the Community Resilience Trust. She is the mother of three, a toddler and two elementary-age AISD students.
+
+***
+
+[noeli-clip-1.wmv](/uploads/noeli-clip-1.wmv "noeli-clip-1.wmv")
