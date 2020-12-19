@@ -57,10 +57,6 @@ weight = 2
 name = "About"
 url = "/about"
 weight = 1
-[[menu.secondary]]
-name = "Get Involved"
-url = "/volunteer"
-weight = 1
 [outputs]
 home = ["HTML", "RSS"]
 [params]
