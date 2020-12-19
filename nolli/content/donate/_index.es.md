@@ -8,6 +8,7 @@ resources:
     source: ''
     description: Black-and-white mage of Noelita Lugo. She is facing the viewer while
       leaning against a wall.
+draft: true
 
 ---
 {{< donate >}}
