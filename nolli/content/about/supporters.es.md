@@ -23,6 +23,9 @@ resources:
 * Liberal Austin Dems
 * Equipping Texas
 * Austin Young Democrats
+* East Travis County Democrats
+* The Rabble Podcast
+* AISD X Podcast
 
 ## Noelita Lugo es apoyada por:
 
@@ -56,3 +59,46 @@ resources:
 * Cecelia Burke, Former Travis County Tax Assessor Collector
 * Alberto C & Rosa Maria Gonzalez
 * Marc Rodriguez
+* Deisy Jaimes
+* Dee Wallace
+* Anita Robertson
+* Samantha Greenleaf
+* Debra Squires
+* Melissa Acosta
+* Yvonne Massey Davis
+* Jon Lees
+* Angela Valenzuela
+* Courtney Jemaa
+* Benjamin Reed
+* Heidi Gibbons
+* Jennifer Yoder
+* Anne Daly-Lesch
+* Nadia Barbot
+* Janis Bookout
+* Angela Pires
+* John MckIernan-Gonzalez
+* David King
+* Patricia Barsalou
+* Daniel Riegel
+* Jim Sease
+* Nancy Mims
+* Randi Ragsdale
+* Stacey Townsend
+* Louisa Brinsmade
+* John Donisi
+* Melissa Hargis
+* Elizabeth Christian
+* The Mason Family
+* Kim Garza
+* Patricia McLeod
+* Mary Trevino
+* Alyse Blackman
+* Kenley Maddox
+* Lionel Felix
+* Hayden Brooks
+* Judy Townsend
+* Carolina Sweet
+* Luis Guerra
+* Johnston-Johnson Family
+* Piper Stege Nelson
+* Jared Breckenridge
