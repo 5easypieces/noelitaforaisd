@@ -1,11 +1,12 @@
 ---
-title: Noelita Lugo for AISD Trustee At-Large
+title: Noelita Lugo, Austin ISD District 8, At-Large Trustee-Elect
 abstract: Every student deserves the chance to succeed.
-draft: false
 resources:
-- src: "_MG_5046-Edit.jpg"
+- src: _MG_5046-Edit.jpg
   name: hero
   params:
-    source: '[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)'
-    description: 'Noelita Lugo speaking at a conference hosted by the University of Texas Child & Family Research Partnership'
+    source: "[The Austin Chronicle](https://www.austinchronicle.com/binary/26de/pols_feature30.jpg)"
+    description: Noelita Lugo speaking at a conference hosted by the University of
+      Texas Child & Family Research Partnership
+
 ---
