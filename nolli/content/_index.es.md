@@ -1,5 +1,5 @@
 ---
-title: Noelita Lugo para Fideicomisario de AISD, Distrito 8
+title: Noelita Lugo, Fideicomisaria Electa de AISD, Distrito 8
 abstract: Todo estudiante merece tener éxito.
 resources:
 - src: _MG_5046-Edit.jpg
